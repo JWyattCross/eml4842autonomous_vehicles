@@ -1,0 +1,28 @@
+running egg_info
+writing ../../../build/gps_nav/gps_nav.egg-info/PKG-INFO
+writing dependency_links to ../../../build/gps_nav/gps_nav.egg-info/dependency_links.txt
+writing entry points to ../../../build/gps_nav/gps_nav.egg-info/entry_points.txt
+writing requirements to ../../../build/gps_nav/gps_nav.egg-info/requires.txt
+writing top-level names to ../../../build/gps_nav/gps_nav.egg-info/top_level.txt
+reading manifest file '../../../build/gps_nav/gps_nav.egg-info/SOURCES.txt'
+writing manifest file '../../../build/gps_nav/gps_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+copying gps_nav/vehicle_controller.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav
+running install
+running install_lib
+copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/vehicle_controller.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav
+byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/vehicle_controller.py to vehicle_controller.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../../build/gps_nav/gps_nav.egg-info to /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav-0.0.1-py3.10.egg-info
+running install_scripts
+Installing goal_pose_creator script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+Installing goal_pose_visualizer script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+Installing motion_spec_provider script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+Installing route_pose_provider script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+Installing route_pose_visualizer script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+Installing vehicle_controller script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+Installing vehicle_simulator script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+writing list of installed files to '/home/wyatt/avHW9/build/gps_nav/install.log'

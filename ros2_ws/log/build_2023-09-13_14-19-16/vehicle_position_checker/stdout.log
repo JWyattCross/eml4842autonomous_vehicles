@@ -1,0 +1,30 @@
+running develop
+Removing /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages/vehicle-position-checker.egg-link (link to .)
+running egg_info
+writing ../../build/vehicle_position_checker/vehicle_position_checker.egg-info/PKG-INFO
+writing dependency_links to ../../build/vehicle_position_checker/vehicle_position_checker.egg-info/dependency_links.txt
+writing entry points to ../../build/vehicle_position_checker/vehicle_position_checker.egg-info/entry_points.txt
+writing requirements to ../../build/vehicle_position_checker/vehicle_position_checker.egg-info/requires.txt
+writing top-level names to ../../build/vehicle_position_checker/vehicle_position_checker.egg-info/top_level.txt
+reading manifest file '../../build/vehicle_position_checker/vehicle_position_checker.egg-info/SOURCES.txt'
+writing manifest file '../../build/vehicle_position_checker/vehicle_position_checker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wyatt/ros2_ws/build/vehicle_position_checker/build
+creating /home/wyatt/ros2_ws/build/vehicle_position_checker/build/lib
+creating /home/wyatt/ros2_ws/build/vehicle_position_checker/build/lib/vehicle_position_checker
+copying vehicle_position_checker/vehicle_position_checker.py -> /home/wyatt/ros2_ws/build/vehicle_position_checker/build/lib/vehicle_position_checker
+copying vehicle_position_checker/__init__.py -> /home/wyatt/ros2_ws/build/vehicle_position_checker/build/lib/vehicle_position_checker
+running install
+running install_lib
+creating /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages/vehicle_position_checker
+copying /home/wyatt/ros2_ws/build/vehicle_position_checker/build/lib/vehicle_position_checker/vehicle_position_checker.py -> /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages/vehicle_position_checker
+copying /home/wyatt/ros2_ws/build/vehicle_position_checker/build/lib/vehicle_position_checker/__init__.py -> /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages/vehicle_position_checker
+byte-compiling /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages/vehicle_position_checker/vehicle_position_checker.py to vehicle_position_checker.cpython-310.pyc
+byte-compiling /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages/vehicle_position_checker/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/vehicle_position_checker/vehicle_position_checker.egg-info to /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages/vehicle_position_checker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing vehicle_positon_checker_node script to /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/vehicle_position_checker
+writing list of installed files to '/home/wyatt/ros2_ws/build/vehicle_position_checker/install.log'

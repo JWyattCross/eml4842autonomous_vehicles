@@ -1,0 +1,4 @@
+Invoking command in '/home/wyatt/avHW9/build/gps_nav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyatt/avHW9/build/gps_nav_interfaces -- -j4 -l4
+Invoked command in '/home/wyatt/avHW9/build/gps_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyatt/avHW9/build/gps_nav_interfaces -- -j4 -l4
+Invoking command in '/home/wyatt/avHW9/build/gps_nav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyatt/avHW9/build/gps_nav_interfaces
+Invoked command in '/home/wyatt/avHW9/build/gps_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyatt/avHW9/build/gps_nav_interfaces

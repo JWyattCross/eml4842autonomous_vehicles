@@ -1,0 +1,37 @@
+[3.428s] Invoking command in '/home/wyatt/humble_AV_ws/src/group5joy': PYTHONPATH=/home/wyatt/humble_AV_ws/build/group5joy/prefix_override:/home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/group5joy build --build-base /home/wyatt/humble_AV_ws/build/group5joy/build install --record /home/wyatt/humble_AV_ws/build/group5joy/install.log --single-version-externally-managed
+[4.124s] running egg_info
+[4.128s] creating ../../build/group5joy/group5joy.egg-info
+[4.128s] writing ../../build/group5joy/group5joy.egg-info/PKG-INFO
+[4.128s] writing dependency_links to ../../build/group5joy/group5joy.egg-info/dependency_links.txt
+[4.141s] writing entry points to ../../build/group5joy/group5joy.egg-info/entry_points.txt
+[4.142s] writing requirements to ../../build/group5joy/group5joy.egg-info/requires.txt
+[4.142s] writing top-level names to ../../build/group5joy/group5joy.egg-info/top_level.txt
+[4.142s] writing manifest file '../../build/group5joy/group5joy.egg-info/SOURCES.txt'
+[4.144s] reading manifest file '../../build/group5joy/group5joy.egg-info/SOURCES.txt'
+[4.146s] writing manifest file '../../build/group5joy/group5joy.egg-info/SOURCES.txt'
+[4.147s] running build
+[4.147s] running build_py
+[4.147s] creating /home/wyatt/humble_AV_ws/build/group5joy/build
+[4.147s] creating /home/wyatt/humble_AV_ws/build/group5joy/build/lib
+[4.147s] creating /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy
+[4.148s] copying group5joy/__init__.py -> /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy
+[4.148s] copying group5joy/joySub.py -> /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy
+[4.148s] running install
+[4.149s] running install_lib
+[4.163s] creating /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy
+[4.164s] copying /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy/__init__.py -> /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy
+[4.164s] copying /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy/joySub.py -> /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy
+[4.164s] byte-compiling /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy/__init__.py to __init__.cpython-310.pyc
+[4.164s] byte-compiling /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy/joySub.py to joySub.cpython-310.pyc
+[4.165s] running install_data
+[4.165s] creating /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index
+[4.165s] creating /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index/resource_index
+[4.165s] creating /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index/resource_index/packages
+[4.165s] copying resource/group5joy -> /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index/resource_index/packages
+[4.166s] copying package.xml -> /home/wyatt/humble_AV_ws/install/group5joy/share/group5joy
+[4.166s] running install_egg_info
+[4.166s] Copying ../../build/group5joy/group5joy.egg-info to /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy-1.0.0-py3.10.egg-info
+[4.169s] running install_scripts
+[4.230s] Installing joySub script to /home/wyatt/humble_AV_ws/install/group5joy/lib/group5joy
+[4.232s] writing list of installed files to '/home/wyatt/humble_AV_ws/build/group5joy/install.log'
+[4.663s] Invoked command in '/home/wyatt/humble_AV_ws/src/group5joy' returned '0': PYTHONPATH=/home/wyatt/humble_AV_ws/build/group5joy/prefix_override:/home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/group5joy build --build-base /home/wyatt/humble_AV_ws/build/group5joy/build install --record /home/wyatt/humble_AV_ws/build/group5joy/install.log --single-version-externally-managed

@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/group5joy/group5joy.egg-info/PKG-INFO
+writing dependency_links to ../../build/group5joy/group5joy.egg-info/dependency_links.txt
+writing entry points to ../../build/group5joy/group5joy.egg-info/entry_points.txt
+writing requirements to ../../build/group5joy/group5joy.egg-info/requires.txt
+writing top-level names to ../../build/group5joy/group5joy.egg-info/top_level.txt
+reading manifest file '../../build/group5joy/group5joy.egg-info/SOURCES.txt'
+writing manifest file '../../build/group5joy/group5joy.egg-info/SOURCES.txt'
+running build
+running build_py
+copying group5joy/joySub.py -> /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy
+running install
+running install_lib
+copying /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy/joySub.py -> /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy
+byte-compiling /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy/joySub.py to joySub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy-1.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/group5joy/group5joy.egg-info to /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy-1.0.0-py3.10.egg-info
+running install_scripts
+Installing joySub script to /home/wyatt/humble_AV_ws/install/group5joy/lib/group5joy
+writing list of installed files to '/home/wyatt/humble_AV_ws/build/group5joy/install.log'

@@ -1,0 +1,5 @@
+/home/wyatt/ros2_ws/build/uf_interfaces/rosidl_adapter/uf_interfaces:action/Defend.idl
+/home/wyatt/ros2_ws/build/uf_interfaces/rosidl_adapter/uf_interfaces:action/Herd.idl
+/home/wyatt/ros2_ws/build/uf_interfaces/rosidl_adapter/uf_interfaces:msg/Position.idl
+/home/wyatt/ros2_ws/build/uf_interfaces/rosidl_adapter/uf_interfaces:srv/TaskAssign.idl
+/home/wyatt/ros2_ws/build/uf_interfaces/rosidl_adapter/uf_interfaces:srv/GeoConv.idl

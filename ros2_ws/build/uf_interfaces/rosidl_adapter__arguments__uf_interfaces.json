@@ -1,0 +1,10 @@
+{
+  "package_name": "uf_interfaces",
+  "non_idl_tuples": [
+    "/home/wyatt/ros2_ws/src/uf_interfaces:action/Defend.action",
+    "/home/wyatt/ros2_ws/src/uf_interfaces:action/Herd.action",
+    "/home/wyatt/ros2_ws/src/uf_interfaces:msg/Position.msg",
+    "/home/wyatt/ros2_ws/src/uf_interfaces:srv/TaskAssign.srv",
+    "/home/wyatt/ros2_ws/src/uf_interfaces:srv/GeoConv.srv"
+  ]
+}

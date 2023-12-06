@@ -1,0 +1,37 @@
+Vehicle Start Up
+
+- Items to bring:
+	- Linux laptop
+	- USB-C to USB-A adapter so joystick will plug in
+	- Joystick
+	- Battery sensor
+    
+- Power up vehicle ; connect laptop to network
+	- SSID: MatthewAV
+	- Pass:  av1tenth@1147
+    
+- Log into vehicle from laptop
+	- ssh matthew@192.168.0.100
+	- password is on the vehicle (av1tenth@1147)
+    
+- On Vehicle computer
+	- cd class_ws
+	- colcon build
+	- source the package
+		- source install/setup.bash
+	- launch the nano_driver and gps_driver nodes
+		- ros2    launch     vehicle_launch     vehicle.launch.py
+	- check the /odometry topic to make sure we are getting orientation data
+    
+- On Laptop
+	- fire up the joystick node
+		- ros2 run joy joy_node
+		- ros2 run joy joy_node --ros-args -p sticky_buttons:=true
+	- fire up the joystick to ackerman node
+		- cd humble_class_ws
+		- colcon build
+		- source install/setup.bash
+		- ros2 run crane_joy go_joy
+	- bag data
+		- ros2 bag record -o bagname <topic_name> < topic_name>
+		- ros2 bag record - a   (will record all topics)

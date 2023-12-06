@@ -1,0 +1,25 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages",
+        "/home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages",
+        "/home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages",
+        "/home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages",
+        "/home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages",
+        "/home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages",
+        "/home/wyatt/humble_AV_ws/install/Cross_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages",
+        "/home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages",
+        "/home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages",
+        "/home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages",
+        "/home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages",
+        "/home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages",
+        "/home/wyatt/humble_AV_ws/install/Cross_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.configureOnOpen": false
+}

@@ -1,0 +1,290 @@
+[0.000000] (-) TimerEvent: {}
+[0.001027] (gps_nav_interfaces) JobQueued: {'identifier': 'gps_nav_interfaces', 'dependencies': OrderedDict()}
+[0.001831] (gps_nav) JobQueued: {'identifier': 'gps_nav', 'dependencies': OrderedDict([('gps_nav_interfaces', '/home/wyatt/avHW9/install/gps_nav_interfaces')])}
+[0.001951] (gps_nav_interfaces) JobStarted: {'identifier': 'gps_nav_interfaces'}
+[0.099334] (-) TimerEvent: {}
+[0.120891] (gps_nav_interfaces) JobProgress: {'identifier': 'gps_nav_interfaces', 'progress': 'cmake'}
+[0.121933] (gps_nav_interfaces) JobProgress: {'identifier': 'gps_nav_interfaces', 'progress': 'build'}
+[0.122977] (gps_nav_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wyatt/avHW9/build/gps_nav_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/wyatt/avHW9/build/gps_nav_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wyatt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wyatt/avHW9/install/gps_nav_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wyatt'), ('OLDPWD', '/home/wyatt'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wyatt/avHW9/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wyatt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wyatt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/r2d2:@/tmp/.ICE-unix/1091,unix/r2d2:/tmp/.ICE-unix/1091'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5998ff38_b27e_4d9a_95a5_095ba9e79c30'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RJ8XE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wyatt/avHW9/install/gps_nav:/home/wyatt/avHW9/install/gps_nav_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wyatt/avHW9/build/gps_nav_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages:/home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wyatt/avHW9/install/gps_nav_interfaces:/home/wyatt/avHW9/install/gps_nav:/opt/ros/humble')]), 'shell': False}
+[0.199505] (-) TimerEvent: {}
+[0.211836] (gps_nav_interfaces) StdoutLine: {'line': b'[  2%] Built target gps_nav_interfaces__cpp\n'}
+[0.214203] (gps_nav_interfaces) StdoutLine: {'line': b'[ 12%] Built target gps_nav_interfaces__rosidl_generator_c\n'}
+[0.239041] (gps_nav_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_gps_nav_interfaces\n'}
+[0.271254] (gps_nav_interfaces) StdoutLine: {'line': b'[ 23%] Built target gps_nav_interfaces__rosidl_typesupport_cpp\n'}
+[0.271878] (gps_nav_interfaces) StdoutLine: {'line': b'[ 34%] Built target gps_nav_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.276457] (gps_nav_interfaces) StdoutLine: {'line': b'[ 44%] Built target gps_nav_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.293575] (gps_nav_interfaces) StdoutLine: {'line': b'[ 55%] Built target gps_nav_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.299630] (-) TimerEvent: {}
+[0.318132] (gps_nav_interfaces) StdoutLine: {'line': b'[ 65%] Built target gps_nav_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.318775] (gps_nav_interfaces) StdoutLine: {'line': b'[ 76%] Built target gps_nav_interfaces__rosidl_typesupport_c\n'}
+[0.359553] (gps_nav_interfaces) StdoutLine: {'line': b'[ 76%] Built target gps_nav_interfaces\n'}
+[0.399737] (-) TimerEvent: {}
+[0.402734] (gps_nav_interfaces) StdoutLine: {'line': b'[ 78%] Built target gps_nav_interfaces__py\n'}
+[0.459396] (gps_nav_interfaces) StdoutLine: {'line': b'[ 87%] Built target gps_nav_interfaces__rosidl_generator_py\n'}
+[0.499867] (-) TimerEvent: {}
+[0.518940] (gps_nav_interfaces) StdoutLine: {'line': b'[ 91%] Built target gps_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.536250] (gps_nav_interfaces) StdoutLine: {'line': b'[ 95%] Built target gps_nav_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.544590] (gps_nav_interfaces) StdoutLine: {'line': b'[100%] Built target gps_nav_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.599976] (-) TimerEvent: {}
+[0.700522] (-) TimerEvent: {}
+[0.800920] (-) TimerEvent: {}
+[0.809479] (gps_nav_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.810471] (gps_nav_interfaces) StdoutLine: {'line': b'writing gps_nav_interfaces.egg-info/PKG-INFO\n'}
+[0.810838] (gps_nav_interfaces) StdoutLine: {'line': b'writing dependency_links to gps_nav_interfaces.egg-info/dependency_links.txt\n'}
+[0.811210] (gps_nav_interfaces) StdoutLine: {'line': b'writing top-level names to gps_nav_interfaces.egg-info/top_level.txt\n'}
+[0.814871] (gps_nav_interfaces) StdoutLine: {'line': b"reading manifest file 'gps_nav_interfaces.egg-info/SOURCES.txt'\n"}
+[0.815969] (gps_nav_interfaces) StdoutLine: {'line': b"writing manifest file 'gps_nav_interfaces.egg-info/SOURCES.txt'\n"}
+[0.861122] (gps_nav_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_gps_nav_interfaces_egg\n'}
+[0.876314] (gps_nav_interfaces) CommandEnded: {'returncode': 0}
+[0.901044] (-) TimerEvent: {}
+[1.001690] (-) TimerEvent: {}
+[1.005803] (gps_nav_interfaces) JobProgress: {'identifier': 'gps_nav_interfaces', 'progress': 'install'}
+[1.019002] (gps_nav_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wyatt/avHW9/build/gps_nav_interfaces'], 'cwd': '/home/wyatt/avHW9/build/gps_nav_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wyatt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wyatt/avHW9/install/gps_nav_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wyatt'), ('OLDPWD', '/home/wyatt'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wyatt/avHW9/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wyatt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wyatt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/r2d2:@/tmp/.ICE-unix/1091,unix/r2d2:/tmp/.ICE-unix/1091'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5998ff38_b27e_4d9a_95a5_095ba9e79c30'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RJ8XE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wyatt/avHW9/install/gps_nav:/home/wyatt/avHW9/install/gps_nav_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wyatt/avHW9/build/gps_nav_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages:/home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wyatt/avHW9/install/gps_nav_interfaces:/home/wyatt/avHW9/install/gps_nav:/opt/ros/humble')]), 'shell': False}
+[1.033584] (gps_nav_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.034043] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/ament_index/resource_index/rosidl_interfaces/gps_nav_interfaces\n'}
+[1.034273] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces\n'}
+[1.034489] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv\n'}
+[1.034702] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/get_route_poses.h\n'}
+[1.034911] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail\n'}
+[1.035338] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__type_support.h\n'}
+[1.035575] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__functions.c\n'}
+[1.035789] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__struct.h\n'}
+[1.035994] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__functions.h\n'}
+[1.036212] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg\n'}
+[1.036416] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/look_ahead_specs.h\n'}
+[1.036628] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/current_goal_pose.h\n'}
+[1.036835] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail\n'}
+[1.037058] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__functions.c\n'}
+[1.037277] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__functions.h\n'}
+[1.038284] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__functions.h\n'}
+[1.038494] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__type_support.h\n'}
+[1.039290] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__struct.h\n'}
+[1.039571] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__functions.c\n'}
+[1.039788] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__type_support.h\n'}
+[1.040005] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__struct.h\n'}
+[1.040582] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.040954] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/environment/library_path.sh\n'}
+[1.041171] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/environment/library_path.dsv\n'}
+[1.041462] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/lib/libgps_nav_interfaces__rosidl_generator_c.so\n'}
+[1.041669] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces\n'}
+[1.041889] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv\n'}
+[1.042117] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail\n'}
+[1.042875] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__rosidl_typesupport_fastrtps_c.h\n'}
+[1.043757] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg\n'}
+[1.044246] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.044472] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail\n'}
+[1.044696] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__rosidl_typesupport_fastrtps_c.h\n'}
+[1.044981] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.045201] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/lib/libgps_nav_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.045768] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces\n'}
+[1.046178] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv\n'}
+[1.046395] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail\n'}
+[1.046688] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__type_support.c\n'}
+[1.046897] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__rosidl_typesupport_introspection_c.h\n'}
+[1.047113] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg\n'}
+[1.047506] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.047757] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail\n'}
+[1.048137] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__rosidl_typesupport_introspection_c.h\n'}
+[1.048405] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__rosidl_typesupport_introspection_c.h\n'}
+[1.048698] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__type_support.c\n'}
+[1.048984] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__type_support.c\n'}
+[1.049273] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/lib/libgps_nav_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.049477] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/lib/libgps_nav_interfaces__rosidl_typesupport_c.so\n'}
+[1.049746] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces\n'}
+[1.050243] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv\n'}
+[1.050629] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/get_route_poses.hpp\n'}
+[1.051103] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail\n'}
+[1.051468] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__traits.hpp\n'}
+[1.051670] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__struct.hpp\n'}
+[1.051866] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__builder.hpp\n'}
+[1.052059] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg\n'}
+[1.052257] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/current_goal_pose.hpp\n'}
+[1.052455] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/look_ahead_specs.hpp\n'}
+[1.052639] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail\n'}
+[1.052820] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__struct.hpp\n'}
+[1.053022] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__builder.hpp\n'}
+[1.053236] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__traits.hpp\n'}
+[1.053436] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__struct.hpp\n'}
+[1.053642] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__traits.hpp\n'}
+[1.053848] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__builder.hpp\n'}
+[1.054046] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces\n'}
+[1.054253] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv\n'}
+[1.054460] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail\n'}
+[1.054637] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.054840] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/dds_fastrtps\n'}
+[1.055741] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg\n'}
+[1.055982] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.056576] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail\n'}
+[1.056805] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.057014] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.057218] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/dds_fastrtps\n'}
+[1.057423] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/lib/libgps_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.057621] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces\n'}
+[1.057820] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv\n'}
+[1.058019] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail\n'}
+[1.058217] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__type_support.cpp\n'}
+[1.058447] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/srv/detail/get_route_poses__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.058662] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg\n'}
+[1.058877] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail\n'}
+[1.059108] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__type_support.cpp\n'}
+[1.059311] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__type_support.cpp\n'}
+[1.059525] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/look_ahead_specs__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.059729] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/include/gps_nav_interfaces/gps_nav_interfaces/msg/detail/current_goal_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.059923] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/lib/libgps_nav_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.060121] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/lib/libgps_nav_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.060324] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/environment/pythonpath.sh\n'}
+[1.060522] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/environment/pythonpath.dsv\n'}
+[1.060716] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.060915] (gps_nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.061113] (gps_nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.061317] (gps_nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.061514] (gps_nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.061728] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces\n'}
+[1.061922] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/gps_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.062111] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/_gps_nav_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.062306] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/_gps_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.062497] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/__init__.py\n'}
+[1.062693] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/_gps_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.062892] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/gps_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.063086] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/srv\n'}
+[1.063281] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/srv/__init__.py\n'}
+[1.063510] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/srv/_get_route_poses.py\n'}
+[1.063718] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/srv/_get_route_poses_s.c\n'}
+[1.063920] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/msg\n'}
+[1.064137] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/msg/_look_ahead_specs.py\n'}
+[1.064333] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/msg/_current_goal_pose.py\n'}
+[1.064528] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/msg/__init__.py\n'}
+[1.064724] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/msg/_look_ahead_specs_s.c\n'}
+[1.064916] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/msg/_current_goal_pose_s.c\n'}
+[1.065110] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/libgps_nav_interfaces__rosidl_generator_py.so\n'}
+[1.065310] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/gps_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.101816] (-) TimerEvent: {}
+[1.105448] (gps_nav_interfaces) StdoutLine: {'line': b"Listing '/home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces'...\n"}
+[1.105808] (gps_nav_interfaces) StdoutLine: {'line': b"Listing '/home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/msg'...\n"}
+[1.106457] (gps_nav_interfaces) StdoutLine: {'line': b"Listing '/home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/srv'...\n"}
+[1.113100] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/gps_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.113533] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/gps_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.114141] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages/gps_nav_interfaces/gps_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.114721] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/lib/libgps_nav_interfaces__rosidl_generator_py.so\n'}
+[1.115127] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/msg/CurrentGoalPose.idl\n'}
+[1.115581] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/msg/LookAheadSpecs.idl\n'}
+[1.116044] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/srv/GetRoutePoses.idl\n'}
+[1.116531] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/msg/CurrentGoalPose.msg\n'}
+[1.116985] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/msg/LookAheadSpecs.msg\n'}
+[1.117341] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/srv/GetRoutePoses.srv\n'}
+[1.117560] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/srv/GetRoutePoses_Request.msg\n'}
+[1.117884] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/srv/GetRoutePoses_Response.msg\n'}
+[1.118243] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/ament_index/resource_index/package_run_dependencies/gps_nav_interfaces\n'}
+[1.118602] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/ament_index/resource_index/parent_prefix_path/gps_nav_interfaces\n'}
+[1.118962] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/environment/ament_prefix_path.sh\n'}
+[1.119317] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.119651] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/environment/path.sh\n'}
+[1.119938] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/environment/path.dsv\n'}
+[1.120298] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/local_setup.bash\n'}
+[1.120654] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/local_setup.sh\n'}
+[1.121066] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/local_setup.zsh\n'}
+[1.121370] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/local_setup.dsv\n'}
+[1.121621] (gps_nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/package.dsv\n'}
+[1.121872] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/ament_index/resource_index/packages/gps_nav_interfaces\n'}
+[1.122355] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/export_gps_nav_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.122678] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/export_gps_nav_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.122989] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/export_gps_nav_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.123221] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/export_gps_nav_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.123435] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/gps_nav_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.123641] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/gps_nav_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.123838] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/gps_nav_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.124030] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/gps_nav_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.124217] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/export_gps_nav_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.124403] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/export_gps_nav_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.124592] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/export_gps_nav_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.124765] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/gps_nav_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.124936] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/gps_nav_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.125109] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/gps_nav_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.125283] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/gps_nav_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.125460] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/export_gps_nav_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.125996] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/export_gps_nav_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.127858] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.131351] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.131719] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.132037] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.132318] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.132643] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.132933] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.133232] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/gps_nav_interfacesConfig.cmake\n'}
+[1.133570] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/cmake/gps_nav_interfacesConfig-version.cmake\n'}
+[1.133912] (gps_nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/avHW9/install/gps_nav_interfaces/share/gps_nav_interfaces/package.xml\n'}
+[1.134257] (gps_nav_interfaces) CommandEnded: {'returncode': 0}
+[1.202013] (-) TimerEvent: {}
+[1.302518] (-) TimerEvent: {}
+[1.404622] (-) TimerEvent: {}
+[1.508661] (-) TimerEvent: {}
+[1.609129] (-) TimerEvent: {}
+[1.653487] (gps_nav_interfaces) JobEnded: {'identifier': 'gps_nav_interfaces', 'rc': 0}
+[1.655159] (gps_nav) JobStarted: {'identifier': 'gps_nav'}
+[1.709275] (-) TimerEvent: {}
+[1.810092] (-) TimerEvent: {}
+[1.911792] (-) TimerEvent: {}
+[2.012207] (-) TimerEvent: {}
+[2.112618] (-) TimerEvent: {}
+[2.213043] (-) TimerEvent: {}
+[2.313446] (-) TimerEvent: {}
+[2.414196] (-) TimerEvent: {}
+[2.514595] (-) TimerEvent: {}
+[2.615286] (-) TimerEvent: {}
+[2.716101] (-) TimerEvent: {}
+[2.816948] (-) TimerEvent: {}
+[2.917964] (-) TimerEvent: {}
+[3.018510] (-) TimerEvent: {}
+[3.119419] (-) TimerEvent: {}
+[3.219874] (-) TimerEvent: {}
+[3.320305] (-) TimerEvent: {}
+[3.420732] (-) TimerEvent: {}
+[3.521148] (-) TimerEvent: {}
+[3.621571] (-) TimerEvent: {}
+[3.722080] (-) TimerEvent: {}
+[3.822528] (-) TimerEvent: {}
+[3.845620] (gps_nav) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/gps_nav', 'build', '--build-base', '/home/wyatt/avHW9/build/gps_nav/build', 'install', '--record', '/home/wyatt/avHW9/build/gps_nav/install.log', '--install-scripts', '$base/lib/gps_nav', '--single-version-externally-managed'], 'cwd': '/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wyatt', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wyatt/avHW9/install/gps_nav_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wyatt', 'OLDPWD': '/home/wyatt', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1124', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/wyatt/avHW9/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wyatt', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wyatt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/r2d2:@/tmp/.ICE-unix/1091,unix/r2d2:/tmp/.ICE-unix/1091', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5998ff38_b27e_4d9a_95a5_095ba9e79c30', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RJ8XE2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wyatt/avHW9/install/gps_nav:/home/wyatt/avHW9/install/gps_nav_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wyatt/avHW9/build/gps_nav', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wyatt/avHW9/build/gps_nav/prefix_override:/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages:/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages:/home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/wyatt/avHW9/install/gps_nav_interfaces'}, 'shell': False}
+[3.922780] (-) TimerEvent: {}
+[4.023247] (-) TimerEvent: {}
+[4.123767] (-) TimerEvent: {}
+[4.224265] (-) TimerEvent: {}
+[4.324679] (-) TimerEvent: {}
+[4.425104] (-) TimerEvent: {}
+[4.492353] (gps_nav) StderrLine: {'line': b"/home/wyatt/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[4.492724] (gps_nav) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.525233] (-) TimerEvent: {}
+[4.607089] (gps_nav) StdoutLine: {'line': b'running egg_info\n'}
+[4.608859] (gps_nav) StdoutLine: {'line': b'writing ../../../build/gps_nav/gps_nav.egg-info/PKG-INFO\n'}
+[4.609277] (gps_nav) StdoutLine: {'line': b'writing dependency_links to ../../../build/gps_nav/gps_nav.egg-info/dependency_links.txt\n'}
+[4.609708] (gps_nav) StdoutLine: {'line': b'writing entry points to ../../../build/gps_nav/gps_nav.egg-info/entry_points.txt\n'}
+[4.610018] (gps_nav) StdoutLine: {'line': b'writing requirements to ../../../build/gps_nav/gps_nav.egg-info/requires.txt\n'}
+[4.610304] (gps_nav) StdoutLine: {'line': b'writing top-level names to ../../../build/gps_nav/gps_nav.egg-info/top_level.txt\n'}
+[4.615441] (gps_nav) StdoutLine: {'line': b"reading manifest file '../../../build/gps_nav/gps_nav.egg-info/SOURCES.txt'\n"}
+[4.622872] (gps_nav) StdoutLine: {'line': b"writing manifest file '../../../build/gps_nav/gps_nav.egg-info/SOURCES.txt'\n"}
+[4.623342] (gps_nav) StdoutLine: {'line': b'running build\n'}
+[4.623613] (gps_nav) StdoutLine: {'line': b'running build_py\n'}
+[4.624047] (gps_nav) StdoutLine: {'line': b'copying gps_nav/vehicle_controller.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav\n'}
+[4.625356] (-) TimerEvent: {}
+[4.626064] (gps_nav) StdoutLine: {'line': b'running install\n'}
+[4.626846] (gps_nav) StdoutLine: {'line': b'running install_lib\n'}
+[4.629163] (gps_nav) StdoutLine: {'line': b'copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/vehicle_controller.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav\n'}
+[4.631166] (gps_nav) StdoutLine: {'line': b'byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/vehicle_controller.py to vehicle_controller.cpython-310.pyc\n'}
+[4.637024] (gps_nav) StdoutLine: {'line': b'running install_data\n'}
+[4.640239] (gps_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.644313] (gps_nav) StdoutLine: {'line': b"removing '/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[4.645019] (gps_nav) StdoutLine: {'line': b'Copying ../../../build/gps_nav/gps_nav.egg-info to /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav-0.0.1-py3.10.egg-info\n'}
+[4.647252] (gps_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[4.702371] (gps_nav) StdoutLine: {'line': b'Installing goal_pose_creator script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav\n'}
+[4.702702] (gps_nav) StdoutLine: {'line': b'Installing goal_pose_visualizer script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav\n'}
+[4.703081] (gps_nav) StdoutLine: {'line': b'Installing motion_spec_provider script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav\n'}
+[4.703321] (gps_nav) StdoutLine: {'line': b'Installing route_pose_provider script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav\n'}
+[4.703570] (gps_nav) StdoutLine: {'line': b'Installing route_pose_visualizer script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav\n'}
+[4.703913] (gps_nav) StdoutLine: {'line': b'Installing vehicle_controller script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav\n'}
+[4.704136] (gps_nav) StdoutLine: {'line': b'Installing vehicle_simulator script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav\n'}
+[4.704987] (gps_nav) StdoutLine: {'line': b"writing list of installed files to '/home/wyatt/avHW9/build/gps_nav/install.log'\n"}
+[4.725503] (-) TimerEvent: {}
+[4.799498] (gps_nav) CommandEnded: {'returncode': 0}
+[4.825637] (-) TimerEvent: {}
+[4.926035] (-) TimerEvent: {}
+[4.982847] (gps_nav) JobEnded: {'identifier': 'gps_nav', 'rc': 0}
+[4.988430] (-) EventReactorShutdown: {}

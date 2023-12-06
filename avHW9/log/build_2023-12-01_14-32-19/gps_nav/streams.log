@@ -1,0 +1,32 @@
+[2.238s] Invoking command in '/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav': PYTHONPATH=/home/wyatt/avHW9/build/gps_nav/prefix_override:/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gps_nav build --build-base /home/wyatt/avHW9/build/gps_nav/build install --record /home/wyatt/avHW9/build/gps_nav/install.log --install-scripts $base/lib/gps_nav --single-version-externally-managed
+[2.874s] /home/wyatt/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.874s]   warnings.warn(
+[2.961s] running egg_info
+[2.963s] writing ../../../build/gps_nav/gps_nav.egg-info/PKG-INFO
+[2.963s] writing dependency_links to ../../../build/gps_nav/gps_nav.egg-info/dependency_links.txt
+[2.964s] writing entry points to ../../../build/gps_nav/gps_nav.egg-info/entry_points.txt
+[2.964s] writing requirements to ../../../build/gps_nav/gps_nav.egg-info/requires.txt
+[2.964s] writing top-level names to ../../../build/gps_nav/gps_nav.egg-info/top_level.txt
+[2.969s] reading manifest file '../../../build/gps_nav/gps_nav.egg-info/SOURCES.txt'
+[2.973s] writing manifest file '../../../build/gps_nav/gps_nav.egg-info/SOURCES.txt'
+[2.974s] running build
+[2.974s] running build_py
+[2.974s] copying gps_nav/vehicle_controller.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav
+[2.977s] running install
+[2.977s] running install_lib
+[2.979s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/vehicle_controller.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav
+[2.981s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/vehicle_controller.py to vehicle_controller.cpython-310.pyc
+[2.985s] running install_data
+[2.988s] running install_egg_info
+[2.993s] removing '/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav-0.0.1-py3.10.egg-info' (and everything under it)
+[2.994s] Copying ../../../build/gps_nav/gps_nav.egg-info to /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav-0.0.1-py3.10.egg-info
+[2.996s] running install_scripts
+[3.047s] Installing goal_pose_creator script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.047s] Installing goal_pose_visualizer script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.048s] Installing motion_spec_provider script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.048s] Installing route_pose_provider script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.048s] Installing route_pose_visualizer script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.048s] Installing vehicle_controller script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.049s] Installing vehicle_simulator script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.050s] writing list of installed files to '/home/wyatt/avHW9/build/gps_nav/install.log'
+[3.128s] Invoked command in '/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav' returned '0': PYTHONPATH=/home/wyatt/avHW9/build/gps_nav/prefix_override:/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gps_nav build --build-base /home/wyatt/avHW9/build/gps_nav/build install --record /home/wyatt/avHW9/build/gps_nav/install.log --install-scripts $base/lib/gps_nav --single-version-externally-managed

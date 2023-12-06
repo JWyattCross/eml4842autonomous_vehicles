@@ -1,0 +1,7 @@
+HOW TO LAUNCH
+
+build and source
+ros2 launch ranger ranger_launch.yaml
+
+package is named 'ranger'
+executable and topic are called 'distance'

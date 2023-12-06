@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating estop_button.egg-info
+writing estop_button.egg-info/PKG-INFO
+writing dependency_links to estop_button.egg-info/dependency_links.txt
+writing entry points to estop_button.egg-info/entry_points.txt
+writing requirements to estop_button.egg-info/requires.txt
+writing top-level names to estop_button.egg-info/top_level.txt
+writing manifest file 'estop_button.egg-info/SOURCES.txt'
+reading manifest file 'estop_button.egg-info/SOURCES.txt'
+writing manifest file 'estop_button.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages/estop-button.egg-link (link to .)
+
+Installed /home/wyatt/ros2_ws/build/estop_button
+running install_data
+creating /home/wyatt/ros2_ws/install/estop_button/share/ament_index
+creating /home/wyatt/ros2_ws/install/estop_button/share/ament_index/resource_index
+creating /home/wyatt/ros2_ws/install/estop_button/share/ament_index/resource_index/packages
+copying resource/estop_button -> /home/wyatt/ros2_ws/install/estop_button/share/ament_index/resource_index/packages
+copying package.xml -> /home/wyatt/ros2_ws/install/estop_button/share/estop_button

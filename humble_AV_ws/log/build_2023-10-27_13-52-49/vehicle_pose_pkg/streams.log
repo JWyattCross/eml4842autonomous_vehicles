@@ -1,0 +1,39 @@
+[2.856s] Invoking command in '/home/wyatt/humble_AV_ws/src/vehicle_pose_pkg': PYTHONPATH=/home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/prefix_override:/home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vehicle_pose_pkg build --build-base /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build install --record /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/install.log --single-version-externally-managed
+[3.660s] running egg_info
+[3.661s] creating ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info
+[3.662s] writing ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/PKG-INFO
+[3.662s] writing dependency_links to ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/dependency_links.txt
+[3.662s] writing entry points to ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/entry_points.txt
+[3.663s] writing requirements to ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/requires.txt
+[3.663s] writing top-level names to ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/top_level.txt
+[3.663s] writing manifest file '../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/SOURCES.txt'
+[3.667s] reading manifest file '../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/SOURCES.txt'
+[3.670s] writing manifest file '../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/SOURCES.txt'
+[3.670s] running build
+[3.670s] running build_py
+[3.671s] creating /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build
+[3.671s] creating /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib
+[3.671s] creating /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib/vehicle_pose_pkg
+[3.673s] copying vehicle_pose_pkg/sub_save.py -> /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib/vehicle_pose_pkg
+[3.674s] copying vehicle_pose_pkg/__init__.py -> /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib/vehicle_pose_pkg
+[3.676s] running install
+[3.676s] running install_lib
+[3.677s] creating /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg
+[3.677s] copying /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib/vehicle_pose_pkg/sub_save.py -> /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg
+[3.677s] copying /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib/vehicle_pose_pkg/__init__.py -> /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg
+[3.677s] byte-compiling /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg/sub_save.py to sub_save.cpython-310.pyc
+[3.679s] byte-compiling /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg/__init__.py to __init__.cpython-310.pyc
+[3.679s] running install_data
+[3.681s] creating /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/ament_index
+[3.681s] creating /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/ament_index/resource_index
+[3.682s] creating /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/ament_index/resource_index/packages
+[3.682s] copying resource/vehicle_pose_pkg -> /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/ament_index/resource_index/packages
+[3.682s] copying package.xml -> /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/vehicle_pose_pkg
+[3.682s] creating /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/vehicle_pose_pkg/launch
+[3.682s] copying launch/vehicle_pose_pkg_launch.yaml -> /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/vehicle_pose_pkg/launch
+[3.683s] running install_egg_info
+[3.688s] Copying ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info to /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg-6.0.0-py3.10.egg-info
+[3.693s] running install_scripts
+[3.742s] Installing sub_save script to /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/vehicle_pose_pkg
+[3.742s] writing list of installed files to '/home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/install.log'
+[4.091s] Invoked command in '/home/wyatt/humble_AV_ws/src/vehicle_pose_pkg' returned '0': PYTHONPATH=/home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/prefix_override:/home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vehicle_pose_pkg build --build-base /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build install --record /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/install.log --single-version-externally-managed

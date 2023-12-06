@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/wallfollowpid/wallfollowpid.egg-info
+writing ../../build/wallfollowpid/wallfollowpid.egg-info/PKG-INFO
+writing dependency_links to ../../build/wallfollowpid/wallfollowpid.egg-info/dependency_links.txt
+writing entry points to ../../build/wallfollowpid/wallfollowpid.egg-info/entry_points.txt
+writing requirements to ../../build/wallfollowpid/wallfollowpid.egg-info/requires.txt
+writing top-level names to ../../build/wallfollowpid/wallfollowpid.egg-info/top_level.txt
+writing manifest file '../../build/wallfollowpid/wallfollowpid.egg-info/SOURCES.txt'
+reading manifest file '../../build/wallfollowpid/wallfollowpid.egg-info/SOURCES.txt'
+writing manifest file '../../build/wallfollowpid/wallfollowpid.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wyatt/humble_AV_ws/build/wallfollowpid/build
+creating /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib
+creating /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid
+copying wallfollowpid/__init__.py -> /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid
+copying wallfollowpid/followOld.py -> /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid
+copying wallfollowpid/followFridayCopy.py -> /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid
+copying wallfollowpid/follow.py -> /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid
+running install
+running install_lib
+creating /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid
+copying /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid/__init__.py -> /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid
+copying /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid/followOld.py -> /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid
+copying /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid/followFridayCopy.py -> /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid
+copying /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid/follow.py -> /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid
+byte-compiling /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid/followOld.py to followOld.cpython-310.pyc
+byte-compiling /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid/followFridayCopy.py to followFridayCopy.cpython-310.pyc
+byte-compiling /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid/follow.py to follow.cpython-310.pyc
+running install_data
+creating /home/wyatt/humble_AV_ws/install/wallfollowpid/share/ament_index
+creating /home/wyatt/humble_AV_ws/install/wallfollowpid/share/ament_index/resource_index
+creating /home/wyatt/humble_AV_ws/install/wallfollowpid/share/ament_index/resource_index/packages
+copying resource/wallfollowpid -> /home/wyatt/humble_AV_ws/install/wallfollowpid/share/ament_index/resource_index/packages
+copying package.xml -> /home/wyatt/humble_AV_ws/install/wallfollowpid/share/wallfollowpid
+creating /home/wyatt/humble_AV_ws/install/wallfollowpid/share/wallfollowpid/launch
+running install_egg_info
+Copying ../../build/wallfollowpid/wallfollowpid.egg-info to /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid-5.0.0-py3.10.egg-info
+running install_scripts
+Installing follow script to /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/wallfollowpid
+writing list of installed files to '/home/wyatt/humble_AV_ws/build/wallfollowpid/install.log'

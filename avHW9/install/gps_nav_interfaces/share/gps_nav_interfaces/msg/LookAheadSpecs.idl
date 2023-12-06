@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gps_nav_interfaces/msg/LookAheadSpecs.msg
+// generated code does not contain a copyright notice
+
+
+module gps_nav_interfaces {
+  module msg {
+    struct LookAheadSpecs {
+      float look_ahead_dist;
+
+      float speed;
+    };
+  };
+};

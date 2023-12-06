@@ -1,0 +1,3 @@
+[console_scripts]
+sub_save = vehicle_pose_pkg.sub_save:main
+

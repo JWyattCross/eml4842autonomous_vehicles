@@ -1,0 +1,6 @@
+source;share/ranger/hook/pythonpath.ps1
+source;share/ranger/hook/pythonpath.dsv
+source;share/ranger/hook/pythonpath.sh
+source;share/ranger/hook/ament_prefix_path.ps1
+source;share/ranger/hook/ament_prefix_path.dsv
+source;share/ranger/hook/ament_prefix_path.sh

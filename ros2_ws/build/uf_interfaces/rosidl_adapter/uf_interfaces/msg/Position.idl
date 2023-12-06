@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from uf_interfaces/msg/Position.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module uf_interfaces {
+  module msg {
+    struct Position {
+      std_msgs::msg::Header header;
+
+      string name;
+
+      double x;
+
+      double y;
+
+      double z;
+
+      double yaw;
+    };
+  };
+};

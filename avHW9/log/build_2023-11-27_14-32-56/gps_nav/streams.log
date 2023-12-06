@@ -1,0 +1,103 @@
+[1.225s] Invoking command in '/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav': PYTHONPATH=/home/wyatt/avHW9/build/gps_nav/prefix_override:/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gps_nav build --build-base /home/wyatt/avHW9/build/gps_nav/build install --record /home/wyatt/avHW9/build/gps_nav/install.log --install-scripts $base/lib/gps_nav --single-version-externally-managed
+[1.565s] /home/wyatt/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.565s]   warnings.warn(
+[1.605s] running egg_info
+[1.605s] creating ../../../build/gps_nav/gps_nav.egg-info
+[1.606s] writing ../../../build/gps_nav/gps_nav.egg-info/PKG-INFO
+[1.606s] writing dependency_links to ../../../build/gps_nav/gps_nav.egg-info/dependency_links.txt
+[1.606s] writing entry points to ../../../build/gps_nav/gps_nav.egg-info/entry_points.txt
+[1.607s] writing requirements to ../../../build/gps_nav/gps_nav.egg-info/requires.txt
+[1.607s] writing top-level names to ../../../build/gps_nav/gps_nav.egg-info/top_level.txt
+[1.607s] writing manifest file '../../../build/gps_nav/gps_nav.egg-info/SOURCES.txt'
+[1.610s] reading manifest file '../../../build/gps_nav/gps_nav.egg-info/SOURCES.txt'
+[1.611s] writing manifest file '../../../build/gps_nav/gps_nav.egg-info/SOURCES.txt'
+[1.611s] running build
+[1.612s] running build_py
+[1.612s] creating /home/wyatt/avHW9/build/gps_nav/build
+[1.612s] creating /home/wyatt/avHW9/build/gps_nav/build/lib
+[1.612s] creating /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav
+[1.613s] copying gps_nav/route_pose_provider.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav
+[1.613s] copying gps_nav/vehicle_simulator.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav
+[1.613s] copying gps_nav/__init__.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav
+[1.613s] copying gps_nav/vehicle_controller.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav
+[1.614s] copying gps_nav/goal_pose_visualizer.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav
+[1.614s] copying gps_nav/goal_pose_creator.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav
+[1.614s] copying gps_nav/motion_spec_provider.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav
+[1.614s] copying gps_nav/route_pose_visualizer.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav
+[1.614s] creating /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/uf_support
+[1.615s] copying gps_nav/uf_support/__init__.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/uf_support
+[1.615s] copying gps_nav/uf_support/geometry_support.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/uf_support
+[1.615s] copying gps_nav/uf_support/route_support.py -> /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/uf_support
+[1.616s] running install
+[1.616s] running install_lib
+[1.618s] creating /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav
+[1.618s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/route_pose_provider.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav
+[1.618s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/vehicle_simulator.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav
+[1.619s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/__init__.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav
+[1.619s] creating /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/uf_support
+[1.619s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/uf_support/__init__.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/uf_support
+[1.619s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/uf_support/geometry_support.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/uf_support
+[1.620s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/uf_support/route_support.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/uf_support
+[1.620s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/vehicle_controller.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav
+[1.620s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/goal_pose_visualizer.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav
+[1.620s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/goal_pose_creator.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav
+[1.620s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/motion_spec_provider.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav
+[1.621s] copying /home/wyatt/avHW9/build/gps_nav/build/lib/gps_nav/route_pose_visualizer.py -> /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav
+[1.622s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/route_pose_provider.py to route_pose_provider.cpython-310.pyc
+[1.623s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/vehicle_simulator.py to vehicle_simulator.cpython-310.pyc
+[1.624s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/__init__.py to __init__.cpython-310.pyc
+[1.625s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/uf_support/__init__.py to __init__.cpython-310.pyc
+[1.625s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/uf_support/geometry_support.py to geometry_support.cpython-310.pyc
+[1.627s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/uf_support/route_support.py to route_support.cpython-310.pyc
+[1.634s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/vehicle_controller.py to vehicle_controller.cpython-310.pyc
+[1.635s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/goal_pose_visualizer.py to goal_pose_visualizer.cpython-310.pyc
+[1.636s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/goal_pose_creator.py to goal_pose_creator.cpython-310.pyc
+[1.638s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/motion_spec_provider.py to motion_spec_provider.cpython-310.pyc
+[1.638s] byte-compiling /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav/route_pose_visualizer.py to route_pose_visualizer.cpython-310.pyc
+[1.640s] running install_data
+[1.641s] creating /home/wyatt/avHW9/install/gps_nav/share/ament_index
+[1.641s] creating /home/wyatt/avHW9/install/gps_nav/share/ament_index/resource_index
+[1.641s] creating /home/wyatt/avHW9/install/gps_nav/share/ament_index/resource_index/packages
+[1.641s] copying resource/gps_nav -> /home/wyatt/avHW9/install/gps_nav/share/ament_index/resource_index/packages
+[1.641s] copying package.xml -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav
+[1.641s] creating /home/wyatt/avHW9/install/gps_nav/share/gps_nav/launch
+[1.641s] copying launch/visualization.launch.py -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/launch
+[1.642s] copying launch/vehicle.launch.py -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/launch
+[1.642s] copying launch/simulation_demo.launch.py -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/launch
+[1.642s] creating /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data
+[1.642s] copying data/pose_list.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data
+[1.642s] creating /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.642s] copying data/stockpile/tyn.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.643s] copying data/stockpile/my_bandshell_pose_list.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.643s] copying data/stockpile/depot_path.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.643s] copying data/stockpile/field_path.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.643s] copying data/stockpile/bandshell_1.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.643s] copying data/stockpile/path_list_B.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.643s] copying data/stockpile/my_out_for_now.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.643s] copying data/stockpile/path_list_orig.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.644s] copying data/stockpile/path_list_A.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.644s] copying data/stockpile/depot_path_UTM.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.644s] copying data/stockpile/BB_to_MAEB.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.644s] copying data/stockpile/tyndall2_path_list.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.644s] copying data/stockpile/tyndall3_path_list.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.644s] copying data/stockpile/tyn_path_list.txt -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/data/stockpile
+[1.645s] creating /home/wyatt/avHW9/install/gps_nav/share/gps_nav/rviz
+[1.645s] copying rviz/bandshell_1.rviz -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/rviz
+[1.645s] copying rviz/gps_nav.rviz -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/rviz
+[1.645s] copying rviz/depot_park.rviz -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/rviz
+[1.645s] creating /home/wyatt/avHW9/install/gps_nav/share/gps_nav/scripts
+[1.646s] copying scripts/kml_to_route.py -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/scripts
+[1.646s] copying scripts/convert_to_UTM.py -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/scripts
+[1.646s] copying scripts/process_pose_list.py -> /home/wyatt/avHW9/install/gps_nav/share/gps_nav/scripts
+[1.646s] running install_egg_info
+[1.648s] Copying ../../../build/gps_nav/gps_nav.egg-info to /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav-0.0.1-py3.10.egg-info
+[1.649s] running install_scripts
+[1.679s] Installing goal_pose_creator script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[1.680s] Installing goal_pose_visualizer script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[1.680s] Installing motion_spec_provider script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[1.680s] Installing route_pose_provider script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[1.680s] Installing route_pose_visualizer script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[1.680s] Installing vehicle_controller script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[1.681s] Installing vehicle_simulator script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[1.681s] writing list of installed files to '/home/wyatt/avHW9/build/gps_nav/install.log'
+[1.724s] Invoked command in '/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav' returned '0': PYTHONPATH=/home/wyatt/avHW9/build/gps_nav/prefix_override:/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gps_nav build --build-base /home/wyatt/avHW9/build/gps_nav/build install --record /home/wyatt/avHW9/build/gps_nav/install.log --install-scripts $base/lib/gps_nav --single-version-externally-managed

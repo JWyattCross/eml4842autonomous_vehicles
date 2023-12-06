@@ -1,0 +1,3 @@
+[console_scripts]
+distance = ranger.distance:main
+

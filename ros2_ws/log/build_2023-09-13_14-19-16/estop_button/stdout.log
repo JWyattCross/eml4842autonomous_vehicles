@@ -1,0 +1,29 @@
+running develop
+Removing /home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages/estop-button.egg-link (link to .)
+running egg_info
+writing ../../build/estop_button/estop_button.egg-info/PKG-INFO
+writing dependency_links to ../../build/estop_button/estop_button.egg-info/dependency_links.txt
+writing entry points to ../../build/estop_button/estop_button.egg-info/entry_points.txt
+writing requirements to ../../build/estop_button/estop_button.egg-info/requires.txt
+writing top-level names to ../../build/estop_button/estop_button.egg-info/top_level.txt
+reading manifest file '../../build/estop_button/estop_button.egg-info/SOURCES.txt'
+writing manifest file '../../build/estop_button/estop_button.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wyatt/ros2_ws/build/estop_button/build
+creating /home/wyatt/ros2_ws/build/estop_button/build/lib
+creating /home/wyatt/ros2_ws/build/estop_button/build/lib/estop_button
+copying estop_button/__init__.py -> /home/wyatt/ros2_ws/build/estop_button/build/lib/estop_button
+copying estop_button/estop_button.py -> /home/wyatt/ros2_ws/build/estop_button/build/lib/estop_button
+running install
+running install_lib
+creating /home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages/estop_button
+copying /home/wyatt/ros2_ws/build/estop_button/build/lib/estop_button/__init__.py -> /home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages/estop_button
+copying /home/wyatt/ros2_ws/build/estop_button/build/lib/estop_button/estop_button.py -> /home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages/estop_button
+byte-compiling /home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages/estop_button/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages/estop_button/estop_button.py to estop_button.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/estop_button/estop_button.egg-info to /home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages/estop_button-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wyatt/ros2_ws/build/estop_button/install.log'

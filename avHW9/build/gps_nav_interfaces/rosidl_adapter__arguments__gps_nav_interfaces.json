@@ -1,0 +1,8 @@
+{
+  "package_name": "gps_nav_interfaces",
+  "non_idl_tuples": [
+    "/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces:msg/CurrentGoalPose.msg",
+    "/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces:msg/LookAheadSpecs.msg",
+    "/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces:srv/GetRoutePoses.srv"
+  ]
+}

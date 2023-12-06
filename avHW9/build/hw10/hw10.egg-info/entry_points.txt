@@ -1,0 +1,3 @@
+[console_scripts]
+pose_estimator = hw10.pose_estimator:main
+

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gps_nav_interfaces/srv/GetRoutePoses.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module gps_nav_interfaces {
+  module srv {
+    struct GetRoutePoses_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    typedef geometry_msgs::msg::Pose geometry_msgs__msg__Pose;
+    typedef geometry_msgs__msg__Pose geometry_msgs__msg__Pose__300[300];
+    typedef int16 int16__300[300];
+    struct GetRoutePoses_Response {
+      int16 num_route_poses;
+
+      geometry_msgs__msg__Pose__300 mypose;
+
+      double offset_x;
+
+      double offset_y;
+
+      int16__300 state;
+
+      boolean want_loop;
+
+      string state_dictionary;
+    };
+  };
+};

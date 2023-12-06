@@ -1,0 +1,17 @@
+[0.936s] Invoking command in '/home/wyatt/ros2_ws/build/vehicle_position_checker': PYTHONPATH=/home/wyatt/ros2_ws/build/vehicle_position_checker/prefix_override:/home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/vehicle_position_checker/build --no-deps install_data
+[1.321s] running develop
+[1.562s] running egg_info
+[1.562s] writing vehicle_position_checker.egg-info/PKG-INFO
+[1.562s] writing dependency_links to vehicle_position_checker.egg-info/dependency_links.txt
+[1.563s] writing entry points to vehicle_position_checker.egg-info/entry_points.txt
+[1.563s] writing requirements to vehicle_position_checker.egg-info/requires.txt
+[1.563s] writing top-level names to vehicle_position_checker.egg-info/top_level.txt
+[1.566s] reading manifest file 'vehicle_position_checker.egg-info/SOURCES.txt'
+[1.567s] writing manifest file 'vehicle_position_checker.egg-info/SOURCES.txt'
+[1.569s] running build_ext
+[1.569s] Creating /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages/vehicle-position-checker.egg-link (link to .)
+[1.570s] Installing vehicle_positon_checker_node script to /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/vehicle_position_checker
+[1.571s] 
+[1.571s] Installed /home/wyatt/ros2_ws/build/vehicle_position_checker
+[1.571s] running install_data
+[1.626s] Invoked command in '/home/wyatt/ros2_ws/build/vehicle_position_checker' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/vehicle_position_checker/prefix_override:/home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/vehicle_position_checker/build --no-deps install_data

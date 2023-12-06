@@ -1,0 +1,6 @@
+source;share/group5joy/hook/pythonpath.ps1
+source;share/group5joy/hook/pythonpath.dsv
+source;share/group5joy/hook/pythonpath.sh
+source;share/group5joy/hook/ament_prefix_path.ps1
+source;share/group5joy/hook/ament_prefix_path.dsv
+source;share/group5joy/hook/ament_prefix_path.sh

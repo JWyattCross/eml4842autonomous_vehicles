@@ -1,0 +1,760 @@
+[0.000000] (-) TimerEvent: {}
+[0.001313] (cross_pkg) JobQueued: {'identifier': 'cross_pkg', 'dependencies': OrderedDict()}
+[0.001416] (group5joy) JobQueued: {'identifier': 'group5joy', 'dependencies': OrderedDict()}
+[0.001475] (intro_package) JobQueued: {'identifier': 'intro_package', 'dependencies': OrderedDict()}
+[0.001524] (my_best2) JobQueued: {'identifier': 'my_best2', 'dependencies': OrderedDict()}
+[0.001593] (my_best3) JobQueued: {'identifier': 'my_best3', 'dependencies': OrderedDict()}
+[0.001680] (my_best3_interfaces) JobQueued: {'identifier': 'my_best3_interfaces', 'dependencies': OrderedDict()}
+[0.001732] (ranger) JobQueued: {'identifier': 'ranger', 'dependencies': OrderedDict()}
+[0.001778] (vehicle_pose_pkg) JobQueued: {'identifier': 'vehicle_pose_pkg', 'dependencies': OrderedDict()}
+[0.002090] (wallfollowpid) JobQueued: {'identifier': 'wallfollowpid', 'dependencies': OrderedDict()}
+[0.002233] (cross_pkg) JobStarted: {'identifier': 'cross_pkg'}
+[0.099397] (-) TimerEvent: {}
+[0.156679] (group5joy) JobStarted: {'identifier': 'group5joy'}
+[0.199497] (-) TimerEvent: {}
+[0.299987] (-) TimerEvent: {}
+[0.312201] (intro_package) JobStarted: {'identifier': 'intro_package'}
+[0.414370] (-) TimerEvent: {}
+[0.431879] (my_best2) JobStarted: {'identifier': 'my_best2'}
+[0.514621] (-) TimerEvent: {}
+[0.615388] (-) TimerEvent: {}
+[0.715859] (-) TimerEvent: {}
+[0.816242] (-) TimerEvent: {}
+[0.916622] (-) TimerEvent: {}
+[1.017654] (-) TimerEvent: {}
+[1.118540] (-) TimerEvent: {}
+[1.218906] (-) TimerEvent: {}
+[1.319254] (-) TimerEvent: {}
+[1.419613] (-) TimerEvent: {}
+[1.520452] (-) TimerEvent: {}
+[1.621305] (-) TimerEvent: {}
+[1.721749] (-) TimerEvent: {}
+[1.822122] (-) TimerEvent: {}
+[1.922478] (-) TimerEvent: {}
+[2.023636] (-) TimerEvent: {}
+[2.124381] (-) TimerEvent: {}
+[2.224798] (-) TimerEvent: {}
+[2.325207] (-) TimerEvent: {}
+[2.425644] (-) TimerEvent: {}
+[2.526075] (-) TimerEvent: {}
+[2.626661] (-) TimerEvent: {}
+[2.727134] (-) TimerEvent: {}
+[2.827581] (-) TimerEvent: {}
+[2.928105] (-) TimerEvent: {}
+[3.028571] (-) TimerEvent: {}
+[3.129024] (-) TimerEvent: {}
+[3.230141] (-) TimerEvent: {}
+[3.332357] (-) TimerEvent: {}
+[3.433660] (-) TimerEvent: {}
+[3.534366] (-) TimerEvent: {}
+[3.581802] (group5joy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/group5joy', 'build', '--build-base', '/home/wyatt/humble_AV_ws/build/group5joy/build', 'install', '--record', '/home/wyatt/humble_AV_ws/build/group5joy/install.log', '--single-version-externally-managed'], 'cwd': '/home/wyatt/humble_AV_ws/src/group5joy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wyatt', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wyatt', 'OLDPWD': '/home/wyatt', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wyatt', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wyatt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/r2d2:@/tmp/.ICE-unix/1034,unix/r2d2:/tmp/.ICE-unix/1034', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1718d4c_f0e4_4e63_9cf6_3a8fd540c4c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZSTID2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wyatt/humble_AV_ws/build/group5joy', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wyatt/humble_AV_ws/build/group5joy/prefix_override:/home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.587912] (my_best2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_best2', 'build', '--build-base', '/home/wyatt/humble_AV_ws/build/my_best2/build', 'install', '--record', '/home/wyatt/humble_AV_ws/build/my_best2/install.log', '--single-version-externally-managed'], 'cwd': '/home/wyatt/humble_AV_ws/src/my_best2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wyatt', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wyatt', 'OLDPWD': '/home/wyatt', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wyatt', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wyatt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/r2d2:@/tmp/.ICE-unix/1034,unix/r2d2:/tmp/.ICE-unix/1034', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1718d4c_f0e4_4e63_9cf6_3a8fd540c4c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZSTID2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wyatt/humble_AV_ws/build/my_best2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wyatt/humble_AV_ws/build/my_best2/prefix_override:/home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.594330] (cross_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/cross_pkg', 'build', '--build-base', '/home/wyatt/humble_AV_ws/build/cross_pkg/build', 'install', '--record', '/home/wyatt/humble_AV_ws/build/cross_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/wyatt/humble_AV_ws/src/cross_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wyatt', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wyatt', 'OLDPWD': '/home/wyatt', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wyatt', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wyatt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/r2d2:@/tmp/.ICE-unix/1034,unix/r2d2:/tmp/.ICE-unix/1034', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1718d4c_f0e4_4e63_9cf6_3a8fd540c4c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZSTID2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wyatt/humble_AV_ws/build/cross_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wyatt/humble_AV_ws/build/cross_pkg/prefix_override:/home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.599671] (intro_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/intro_package', 'build', '--build-base', '/home/wyatt/humble_AV_ws/build/intro_package/build', 'install', '--record', '/home/wyatt/humble_AV_ws/build/intro_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/wyatt/humble_AV_ws/src/intro_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wyatt', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wyatt', 'OLDPWD': '/home/wyatt', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wyatt', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wyatt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/r2d2:@/tmp/.ICE-unix/1034,unix/r2d2:/tmp/.ICE-unix/1034', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1718d4c_f0e4_4e63_9cf6_3a8fd540c4c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZSTID2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wyatt/humble_AV_ws/build/intro_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wyatt/humble_AV_ws/build/intro_package/prefix_override:/home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.634473] (-) TimerEvent: {}
+[3.734951] (-) TimerEvent: {}
+[3.835408] (-) TimerEvent: {}
+[3.935847] (-) TimerEvent: {}
+[4.036427] (-) TimerEvent: {}
+[4.136987] (-) TimerEvent: {}
+[4.237554] (-) TimerEvent: {}
+[4.266949] (my_best2) StdoutLine: {'line': b'running egg_info\n'}
+[4.268161] (my_best2) StdoutLine: {'line': b'creating ../../build/my_best2/my_best2.egg-info\n'}
+[4.268598] (my_best2) StdoutLine: {'line': b'writing ../../build/my_best2/my_best2.egg-info/PKG-INFO\n'}
+[4.269084] (my_best2) StdoutLine: {'line': b'writing dependency_links to ../../build/my_best2/my_best2.egg-info/dependency_links.txt\n'}
+[4.269390] (my_best2) StdoutLine: {'line': b'writing entry points to ../../build/my_best2/my_best2.egg-info/entry_points.txt\n'}
+[4.269655] (my_best2) StdoutLine: {'line': b'writing requirements to ../../build/my_best2/my_best2.egg-info/requires.txt\n'}
+[4.269899] (my_best2) StdoutLine: {'line': b'writing top-level names to ../../build/my_best2/my_best2.egg-info/top_level.txt\n'}
+[4.270340] (my_best2) StdoutLine: {'line': b"writing manifest file '../../build/my_best2/my_best2.egg-info/SOURCES.txt'\n"}
+[4.274315] (my_best2) StdoutLine: {'line': b"reading manifest file '../../build/my_best2/my_best2.egg-info/SOURCES.txt'\n"}
+[4.276954] (my_best2) StdoutLine: {'line': b"writing manifest file '../../build/my_best2/my_best2.egg-info/SOURCES.txt'\n"}
+[4.277339] (my_best2) StdoutLine: {'line': b'running build\n'}
+[4.277554] (my_best2) StdoutLine: {'line': b'running build_py\n'}
+[4.277924] (my_best2) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/my_best2/build\n'}
+[4.278189] (my_best2) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/my_best2/build/lib\n'}
+[4.278472] (my_best2) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2\n'}
+[4.278719] (my_best2) StdoutLine: {'line': b'copying my_best2/my_pub.py -> /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2\n'}
+[4.278975] (my_best2) StdoutLine: {'line': b'copying my_best2/__init__.py -> /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2\n'}
+[4.279245] (my_best2) StdoutLine: {'line': b'copying my_best2/pub_pt.py -> /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2\n'}
+[4.279438] (my_best2) StdoutLine: {'line': b'copying my_best2/my_sub.py -> /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2\n'}
+[4.279689] (my_best2) StdoutLine: {'line': b'copying my_best2/sub_pt_pub_polar.py -> /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2\n'}
+[4.279911] (my_best2) StdoutLine: {'line': b'running install\n'}
+[4.280370] (my_best2) StdoutLine: {'line': b'running install_lib\n'}
+[4.280658] (group5joy) StdoutLine: {'line': b'running egg_info\n'}
+[4.283086] (my_best2) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2\n'}
+[4.283412] (my_best2) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2/my_pub.py -> /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2\n'}
+[4.283611] (my_best2) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2/__init__.py -> /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2\n'}
+[4.283807] (my_best2) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2/pub_pt.py -> /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2\n'}
+[4.284136] (my_best2) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2/my_sub.py -> /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2\n'}
+[4.284446] (cross_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.284690] (group5joy) StdoutLine: {'line': b'creating ../../build/group5joy/group5joy.egg-info\n'}
+[4.284957] (group5joy) StdoutLine: {'line': b'writing ../../build/group5joy/group5joy.egg-info/PKG-INFO\n'}
+[4.285208] (group5joy) StdoutLine: {'line': b'writing dependency_links to ../../build/group5joy/group5joy.egg-info/dependency_links.txt\n'}
+[4.285596] (my_best2) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2/sub_pt_pub_polar.py -> /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2\n'}
+[4.285846] (cross_pkg) StdoutLine: {'line': b'creating ../../build/cross_pkg/cross_pkg.egg-info\n'}
+[4.286107] (my_best2) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2/my_pub.py to my_pub.cpython-310.pyc\n'}
+[4.286302] (cross_pkg) StdoutLine: {'line': b'writing ../../build/cross_pkg/cross_pkg.egg-info/PKG-INFO\n'}
+[4.286492] (cross_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/cross_pkg/cross_pkg.egg-info/dependency_links.txt\n'}
+[4.286678] (cross_pkg) StdoutLine: {'line': b'writing entry points to ../../build/cross_pkg/cross_pkg.egg-info/entry_points.txt\n'}
+[4.286867] (my_best2) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2/__init__.py to __init__.cpython-310.pyc\n'}
+[4.287055] (cross_pkg) StdoutLine: {'line': b'writing requirements to ../../build/cross_pkg/cross_pkg.egg-info/requires.txt\n'}
+[4.287307] (cross_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/cross_pkg/cross_pkg.egg-info/top_level.txt\n'}
+[4.287496] (my_best2) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2/pub_pt.py to pub_pt.cpython-310.pyc\n'}
+[4.287685] (cross_pkg) StdoutLine: {'line': b"writing manifest file '../../build/cross_pkg/cross_pkg.egg-info/SOURCES.txt'\n"}
+[4.287891] (my_best2) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2/my_sub.py to my_sub.cpython-310.pyc\n'}
+[4.298007] (my_best2) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2/sub_pt_pub_polar.py to sub_pt_pub_polar.cpython-310.pyc\n'}
+[4.298353] (group5joy) StdoutLine: {'line': b'writing entry points to ../../build/group5joy/group5joy.egg-info/entry_points.txt\n'}
+[4.298571] (group5joy) StdoutLine: {'line': b'writing requirements to ../../build/group5joy/group5joy.egg-info/requires.txt\n'}
+[4.298821] (group5joy) StdoutLine: {'line': b'writing top-level names to ../../build/group5joy/group5joy.egg-info/top_level.txt\n'}
+[4.299024] (group5joy) StdoutLine: {'line': b"writing manifest file '../../build/group5joy/group5joy.egg-info/SOURCES.txt'\n"}
+[4.299224] (my_best2) StdoutLine: {'line': b'running install_data\n'}
+[4.299421] (cross_pkg) StdoutLine: {'line': b"reading manifest file '../../build/cross_pkg/cross_pkg.egg-info/SOURCES.txt'\n"}
+[4.299631] (my_best2) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/my_best2/share/ament_index\n'}
+[4.299886] (my_best2) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/my_best2/share/ament_index/resource_index\n'}
+[4.300149] (my_best2) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/my_best2/share/ament_index/resource_index/packages\n'}
+[4.300349] (my_best2) StdoutLine: {'line': b'copying resource/my_best2 -> /home/wyatt/humble_AV_ws/install/my_best2/share/ament_index/resource_index/packages\n'}
+[4.300557] (my_best2) StdoutLine: {'line': b'copying package.xml -> /home/wyatt/humble_AV_ws/install/my_best2/share/my_best2\n'}
+[4.300789] (my_best2) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.300959] (cross_pkg) StdoutLine: {'line': b"writing manifest file '../../build/cross_pkg/cross_pkg.egg-info/SOURCES.txt'\n"}
+[4.301131] (cross_pkg) StdoutLine: {'line': b'running build\n'}
+[4.301311] (cross_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.301502] (group5joy) StdoutLine: {'line': b"reading manifest file '../../build/group5joy/group5joy.egg-info/SOURCES.txt'\n"}
+[4.301692] (cross_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/cross_pkg/build\n'}
+[4.301927] (cross_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib\n'}
+[4.302225] (cross_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg\n'}
+[4.302459] (cross_pkg) StdoutLine: {'line': b'copying cross_pkg/__init__.py -> /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg\n'}
+[4.302701] (cross_pkg) StdoutLine: {'line': b'copying cross_pkg/check_val.py -> /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg\n'}
+[4.302920] (cross_pkg) StdoutLine: {'line': b'copying cross_pkg/generate_random_num.py -> /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg\n'}
+[4.303098] (cross_pkg) StdoutLine: {'line': b'running install\n'}
+[4.303285] (cross_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.303472] (group5joy) StdoutLine: {'line': b"writing manifest file '../../build/group5joy/group5joy.egg-info/SOURCES.txt'\n"}
+[4.303673] (group5joy) StdoutLine: {'line': b'running build\n'}
+[4.303858] (group5joy) StdoutLine: {'line': b'running build_py\n'}
+[4.304048] (group5joy) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/group5joy/build\n'}
+[4.304234] (group5joy) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/group5joy/build/lib\n'}
+[4.304425] (group5joy) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy\n'}
+[4.304615] (group5joy) StdoutLine: {'line': b'copying group5joy/__init__.py -> /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy\n'}
+[4.304808] (cross_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg\n'}
+[4.305018] (group5joy) StdoutLine: {'line': b'copying group5joy/joySub.py -> /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy\n'}
+[4.305199] (cross_pkg) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg/__init__.py -> /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg\n'}
+[4.305380] (cross_pkg) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg/check_val.py -> /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg\n'}
+[4.305560] (group5joy) StdoutLine: {'line': b'running install\n'}
+[4.305739] (cross_pkg) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg/generate_random_num.py -> /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg\n'}
+[4.305926] (my_best2) StdoutLine: {'line': b'Copying ../../build/my_best2/my_best2.egg-info to /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2-23.0.0-py3.10.egg-info\n'}
+[4.306147] (group5joy) StdoutLine: {'line': b'running install_lib\n'}
+[4.306332] (cross_pkg) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[4.306520] (cross_pkg) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg/check_val.py to check_val.cpython-310.pyc\n'}
+[4.318206] (cross_pkg) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg/generate_random_num.py to generate_random_num.cpython-310.pyc\n'}
+[4.318440] (my_best2) StdoutLine: {'line': b'running install_scripts\n'}
+[4.318652] (cross_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.318955] (cross_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/cross_pkg/share/ament_index\n'}
+[4.319194] (cross_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/cross_pkg/share/ament_index/resource_index\n'}
+[4.319461] (cross_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/cross_pkg/share/ament_index/resource_index/packages\n'}
+[4.319651] (cross_pkg) StdoutLine: {'line': b'copying resource/cross_pkg -> /home/wyatt/humble_AV_ws/install/cross_pkg/share/ament_index/resource_index/packages\n'}
+[4.319882] (cross_pkg) StdoutLine: {'line': b'copying package.xml -> /home/wyatt/humble_AV_ws/install/cross_pkg/share/cross_pkg\n'}
+[4.320062] (cross_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.320286] (cross_pkg) StdoutLine: {'line': b'Copying ../../build/cross_pkg/cross_pkg.egg-info to /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg-1.0.0-py3.10.egg-info\n'}
+[4.320556] (group5joy) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy\n'}
+[4.320742] (group5joy) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy/__init__.py -> /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy\n'}
+[4.320918] (group5joy) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy/joySub.py -> /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy\n'}
+[4.321142] (cross_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.321306] (group5joy) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy/__init__.py to __init__.cpython-310.pyc\n'}
+[4.321479] (group5joy) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy/joySub.py to joySub.cpython-310.pyc\n'}
+[4.321656] (group5joy) StdoutLine: {'line': b'running install_data\n'}
+[4.321831] (group5joy) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index\n'}
+[4.322042] (group5joy) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index/resource_index\n'}
+[4.322250] (group5joy) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index/resource_index/packages\n'}
+[4.322426] (group5joy) StdoutLine: {'line': b'copying resource/group5joy -> /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index/resource_index/packages\n'}
+[4.322611] (group5joy) StdoutLine: {'line': b'copying package.xml -> /home/wyatt/humble_AV_ws/install/group5joy/share/group5joy\n'}
+[4.322798] (group5joy) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.322981] (group5joy) StdoutLine: {'line': b'Copying ../../build/group5joy/group5joy.egg-info to /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy-1.0.0-py3.10.egg-info\n'}
+[4.323169] (intro_package) StdoutLine: {'line': b'running egg_info\n'}
+[4.323402] (intro_package) StdoutLine: {'line': b'creating ../../build/intro_package/intro_package.egg-info\n'}
+[4.323591] (intro_package) StdoutLine: {'line': b'writing ../../build/intro_package/intro_package.egg-info/PKG-INFO\n'}
+[4.323787] (intro_package) StdoutLine: {'line': b'writing dependency_links to ../../build/intro_package/intro_package.egg-info/dependency_links.txt\n'}
+[4.323972] (intro_package) StdoutLine: {'line': b'writing entry points to ../../build/intro_package/intro_package.egg-info/entry_points.txt\n'}
+[4.324154] (intro_package) StdoutLine: {'line': b'writing requirements to ../../build/intro_package/intro_package.egg-info/requires.txt\n'}
+[4.324335] (intro_package) StdoutLine: {'line': b'writing top-level names to ../../build/intro_package/intro_package.egg-info/top_level.txt\n'}
+[4.324516] (intro_package) StdoutLine: {'line': b"writing manifest file '../../build/intro_package/intro_package.egg-info/SOURCES.txt'\n"}
+[4.324811] (intro_package) StdoutLine: {'line': b"reading manifest file '../../build/intro_package/intro_package.egg-info/SOURCES.txt'\n"}
+[4.326311] (group5joy) StdoutLine: {'line': b'running install_scripts\n'}
+[4.327794] (intro_package) StdoutLine: {'line': b"writing manifest file '../../build/intro_package/intro_package.egg-info/SOURCES.txt'\n"}
+[4.328149] (intro_package) StdoutLine: {'line': b'running build\n'}
+[4.328395] (intro_package) StdoutLine: {'line': b'running build_py\n'}
+[4.328762] (intro_package) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/intro_package/build\n'}
+[4.329021] (intro_package) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/intro_package/build/lib\n'}
+[4.329271] (intro_package) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/intro_package/build/lib/intro_package\n'}
+[4.329530] (intro_package) StdoutLine: {'line': b'copying intro_package/my_pub.py -> /home/wyatt/humble_AV_ws/build/intro_package/build/lib/intro_package\n'}
+[4.329805] (intro_package) StdoutLine: {'line': b'copying intro_package/__init__.py -> /home/wyatt/humble_AV_ws/build/intro_package/build/lib/intro_package\n'}
+[4.330132] (intro_package) StdoutLine: {'line': b'copying intro_package/pub_pt.py -> /home/wyatt/humble_AV_ws/build/intro_package/build/lib/intro_package\n'}
+[4.330488] (intro_package) StdoutLine: {'line': b'copying intro_package/my_sub.py -> /home/wyatt/humble_AV_ws/build/intro_package/build/lib/intro_package\n'}
+[4.330861] (intro_package) StdoutLine: {'line': b'copying intro_package/sub_pt_pub_polar.py -> /home/wyatt/humble_AV_ws/build/intro_package/build/lib/intro_package\n'}
+[4.331475] (intro_package) StdoutLine: {'line': b'running install\n'}
+[4.332346] (intro_package) StdoutLine: {'line': b'running install_lib\n'}
+[4.334078] (intro_package) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package\n'}
+[4.334444] (intro_package) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/intro_package/build/lib/intro_package/my_pub.py -> /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package\n'}
+[4.334750] (intro_package) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/intro_package/build/lib/intro_package/__init__.py -> /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package\n'}
+[4.335051] (intro_package) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/intro_package/build/lib/intro_package/pub_pt.py -> /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package\n'}
+[4.335432] (intro_package) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/intro_package/build/lib/intro_package/my_sub.py -> /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package\n'}
+[4.335770] (intro_package) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/intro_package/build/lib/intro_package/sub_pt_pub_polar.py -> /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package\n'}
+[4.337055] (intro_package) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package/my_pub.py to my_pub.cpython-310.pyc\n'}
+[4.337638] (-) TimerEvent: {}
+[4.338306] (intro_package) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package/__init__.py to __init__.cpython-310.pyc\n'}
+[4.338638] (intro_package) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package/pub_pt.py to pub_pt.cpython-310.pyc\n'}
+[4.339869] (intro_package) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package/my_sub.py to my_sub.cpython-310.pyc\n'}
+[4.340663] (intro_package) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package/sub_pt_pub_polar.py to sub_pt_pub_polar.cpython-310.pyc\n'}
+[4.341651] (intro_package) StdoutLine: {'line': b'running install_data\n'}
+[4.343014] (intro_package) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/intro_package/share/ament_index\n'}
+[4.343412] (intro_package) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/intro_package/share/ament_index/resource_index\n'}
+[4.343653] (intro_package) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/intro_package/share/ament_index/resource_index/packages\n'}
+[4.343887] (intro_package) StdoutLine: {'line': b'copying resource/intro_package -> /home/wyatt/humble_AV_ws/install/intro_package/share/ament_index/resource_index/packages\n'}
+[4.344081] (intro_package) StdoutLine: {'line': b'copying package.xml -> /home/wyatt/humble_AV_ws/install/intro_package/share/intro_package\n'}
+[4.344270] (intro_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.347592] (intro_package) StdoutLine: {'line': b'Copying ../../build/intro_package/intro_package.egg-info to /home/wyatt/humble_AV_ws/install/intro_package/lib/python3.10/site-packages/intro_package-23.0.0-py3.10.egg-info\n'}
+[4.350308] (intro_package) StdoutLine: {'line': b'running install_scripts\n'}
+[4.354960] (cross_pkg) StdoutLine: {'line': b'Installing run_node1 script to /home/wyatt/humble_AV_ws/install/cross_pkg/lib/cross_pkg\n'}
+[4.355372] (my_best2) StdoutLine: {'line': b'Installing listener script to /home/wyatt/humble_AV_ws/install/my_best2/lib/my_best2\n'}
+[4.355638] (cross_pkg) StdoutLine: {'line': b'Installing run_node2 script to /home/wyatt/humble_AV_ws/install/cross_pkg/lib/cross_pkg\n'}
+[4.355929] (my_best2) StdoutLine: {'line': b'Installing pub_me script to /home/wyatt/humble_AV_ws/install/my_best2/lib/my_best2\n'}
+[4.356206] (my_best2) StdoutLine: {'line': b'Installing sub_me script to /home/wyatt/humble_AV_ws/install/my_best2/lib/my_best2\n'}
+[4.356412] (my_best2) StdoutLine: {'line': b'Installing talker script to /home/wyatt/humble_AV_ws/install/my_best2/lib/my_best2\n'}
+[4.356603] (cross_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/wyatt/humble_AV_ws/build/cross_pkg/install.log'\n"}
+[4.356864] (my_best2) StdoutLine: {'line': b"writing list of installed files to '/home/wyatt/humble_AV_ws/build/my_best2/install.log'\n"}
+[4.387270] (group5joy) StdoutLine: {'line': b'Installing joySub script to /home/wyatt/humble_AV_ws/install/group5joy/lib/group5joy\n'}
+[4.388778] (group5joy) StdoutLine: {'line': b"writing list of installed files to '/home/wyatt/humble_AV_ws/build/group5joy/install.log'\n"}
+[4.408075] (intro_package) StdoutLine: {'line': b'Installing listener script to /home/wyatt/humble_AV_ws/install/intro_package/lib/intro_package\n'}
+[4.408641] (intro_package) StdoutLine: {'line': b'Installing pub_me script to /home/wyatt/humble_AV_ws/install/intro_package/lib/intro_package\n'}
+[4.409085] (intro_package) StdoutLine: {'line': b'Installing sub_me script to /home/wyatt/humble_AV_ws/install/intro_package/lib/intro_package\n'}
+[4.409563] (intro_package) StdoutLine: {'line': b'Installing talker script to /home/wyatt/humble_AV_ws/install/intro_package/lib/intro_package\n'}
+[4.410949] (intro_package) StdoutLine: {'line': b"writing list of installed files to '/home/wyatt/humble_AV_ws/build/intro_package/install.log'\n"}
+[4.437790] (-) TimerEvent: {}
+[4.442157] (cross_pkg) CommandEnded: {'returncode': 0}
+[4.537999] (-) TimerEvent: {}
+[4.547907] (cross_pkg) JobEnded: {'identifier': 'cross_pkg', 'rc': 0}
+[4.549715] (my_best2) CommandEnded: {'returncode': 0}
+[4.629326] (my_best2) JobEnded: {'identifier': 'my_best2', 'rc': 0}
+[4.632486] (my_best3) JobStarted: {'identifier': 'my_best3'}
+[4.638047] (-) TimerEvent: {}
+[4.739148] (-) TimerEvent: {}
+[4.739939] (my_best3_interfaces) JobStarted: {'identifier': 'my_best3_interfaces'}
+[4.819898] (group5joy) CommandEnded: {'returncode': 0}
+[4.839793] (-) TimerEvent: {}
+[4.905192] (group5joy) JobEnded: {'identifier': 'group5joy', 'rc': 0}
+[4.907063] (intro_package) CommandEnded: {'returncode': 0}
+[4.940038] (-) TimerEvent: {}
+[4.994420] (intro_package) JobEnded: {'identifier': 'intro_package', 'rc': 0}
+[4.997641] (ranger) JobStarted: {'identifier': 'ranger'}
+[5.040133] (-) TimerEvent: {}
+[5.107563] (vehicle_pose_pkg) JobStarted: {'identifier': 'vehicle_pose_pkg'}
+[5.140266] (-) TimerEvent: {}
+[5.240815] (-) TimerEvent: {}
+[5.341191] (-) TimerEvent: {}
+[5.441550] (-) TimerEvent: {}
+[5.541921] (-) TimerEvent: {}
+[5.643118] (-) TimerEvent: {}
+[5.715799] (my_best3_interfaces) JobProgress: {'identifier': 'my_best3_interfaces', 'progress': 'cmake'}
+[5.716633] (my_best3_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/wyatt/humble_AV_ws/src/my_best3_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/wyatt/humble_AV_ws/install/my_best3_interfaces'], 'cwd': '/home/wyatt/humble_AV_ws/build/my_best3_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wyatt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wyatt'), ('OLDPWD', '/home/wyatt'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wyatt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wyatt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/r2d2:@/tmp/.ICE-unix/1034,unix/r2d2:/tmp/.ICE-unix/1034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f1718d4c_f0e4_4e63_9cf6_3a8fd540c4c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZSTID2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wyatt/humble_AV_ws/build/my_best3_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.743241] (-) TimerEvent: {}
+[5.843700] (-) TimerEvent: {}
+[5.875769] (my_best3_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.943814] (-) TimerEvent: {}
+[6.008631] (my_best3_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.023522] (my_best3_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.043949] (-) TimerEvent: {}
+[6.128204] (my_best3_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.140193] (my_best3_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.140811] (my_best3_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.141832] (my_best3_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.144038] (-) TimerEvent: {}
+[6.148939] (my_best3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.244145] (-) TimerEvent: {}
+[6.268155] (my_best3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.290787] (my_best3_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.291212] (my_best3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.292356] (my_best3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.299159] (my_best3_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.344276] (-) TimerEvent: {}
+[6.444713] (-) TimerEvent: {}
+[6.545170] (-) TimerEvent: {}
+[6.548368] (my_best3_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.645303] (-) TimerEvent: {}
+[6.693228] (my_best3_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[6.745460] (-) TimerEvent: {}
+[6.777194] (my_best3_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.791117] (my_best3_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.814547] (my_best3_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.846127] (-) TimerEvent: {}
+[6.856660] (my_best3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.900373] (my_best3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.946242] (-) TimerEvent: {}
+[7.046811] (-) TimerEvent: {}
+[7.147260] (-) TimerEvent: {}
+[7.247685] (-) TimerEvent: {}
+[7.303063] (my_best3_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.347803] (-) TimerEvent: {}
+[7.448276] (-) TimerEvent: {}
+[7.548725] (-) TimerEvent: {}
+[7.649176] (-) TimerEvent: {}
+[7.749647] (-) TimerEvent: {}
+[7.839812] (ranger) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ranger', 'build', '--build-base', '/home/wyatt/humble_AV_ws/build/ranger/build', 'install', '--record', '/home/wyatt/humble_AV_ws/build/ranger/install.log', '--single-version-externally-managed'], 'cwd': '/home/wyatt/humble_AV_ws/src/ranger', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wyatt', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wyatt', 'OLDPWD': '/home/wyatt', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wyatt', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wyatt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/r2d2:@/tmp/.ICE-unix/1034,unix/r2d2:/tmp/.ICE-unix/1034', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1718d4c_f0e4_4e63_9cf6_3a8fd540c4c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZSTID2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wyatt/humble_AV_ws/build/ranger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wyatt/humble_AV_ws/build/ranger/prefix_override:/home/wyatt/humble_AV_ws/install/ranger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.849779] (-) TimerEvent: {}
+[7.950451] (-) TimerEvent: {}
+[7.963067] (vehicle_pose_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/vehicle_pose_pkg', 'build', '--build-base', '/home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build', 'install', '--record', '/home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/wyatt/humble_AV_ws/src/vehicle_pose_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wyatt', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wyatt', 'OLDPWD': '/home/wyatt', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wyatt', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wyatt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/r2d2:@/tmp/.ICE-unix/1034,unix/r2d2:/tmp/.ICE-unix/1034', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1718d4c_f0e4_4e63_9cf6_3a8fd540c4c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZSTID2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wyatt/humble_AV_ws/build/vehicle_pose_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/prefix_override:/home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.982883] (my_best3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_best3', 'build', '--build-base', '/home/wyatt/humble_AV_ws/build/my_best3/build', 'install', '--record', '/home/wyatt/humble_AV_ws/build/my_best3/install.log', '--single-version-externally-managed'], 'cwd': '/home/wyatt/humble_AV_ws/src/my_best3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wyatt', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wyatt', 'OLDPWD': '/home/wyatt', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wyatt', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wyatt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/r2d2:@/tmp/.ICE-unix/1034,unix/r2d2:/tmp/.ICE-unix/1034', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1718d4c_f0e4_4e63_9cf6_3a8fd540c4c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZSTID2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wyatt/humble_AV_ws/build/my_best3', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wyatt/humble_AV_ws/build/my_best3/prefix_override:/home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[8.050563] (-) TimerEvent: {}
+[8.154182] (-) TimerEvent: {}
+[8.236076] (my_best3_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.254291] (-) TimerEvent: {}
+[8.354721] (-) TimerEvent: {}
+[8.455189] (-) TimerEvent: {}
+[8.555623] (-) TimerEvent: {}
+[8.634434] (ranger) StdoutLine: {'line': b'running egg_info\n'}
+[8.635624] (ranger) StdoutLine: {'line': b'creating ../../build/ranger/ranger.egg-info\n'}
+[8.636037] (ranger) StdoutLine: {'line': b'writing ../../build/ranger/ranger.egg-info/PKG-INFO\n'}
+[8.636489] (ranger) StdoutLine: {'line': b'writing dependency_links to ../../build/ranger/ranger.egg-info/dependency_links.txt\n'}
+[8.636775] (ranger) StdoutLine: {'line': b'writing entry points to ../../build/ranger/ranger.egg-info/entry_points.txt\n'}
+[8.637043] (ranger) StdoutLine: {'line': b'writing requirements to ../../build/ranger/ranger.egg-info/requires.txt\n'}
+[8.637300] (ranger) StdoutLine: {'line': b'writing top-level names to ../../build/ranger/ranger.egg-info/top_level.txt\n'}
+[8.637642] (ranger) StdoutLine: {'line': b"writing manifest file '../../build/ranger/ranger.egg-info/SOURCES.txt'\n"}
+[8.641645] (ranger) StdoutLine: {'line': b"reading manifest file '../../build/ranger/ranger.egg-info/SOURCES.txt'\n"}
+[8.644234] (ranger) StdoutLine: {'line': b"writing manifest file '../../build/ranger/ranger.egg-info/SOURCES.txt'\n"}
+[8.644701] (ranger) StdoutLine: {'line': b'running build\n'}
+[8.644991] (ranger) StdoutLine: {'line': b'running build_py\n'}
+[8.645322] (ranger) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/ranger/build\n'}
+[8.645558] (ranger) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/ranger/build/lib\n'}
+[8.645778] (ranger) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/ranger/build/lib/ranger\n'}
+[8.645995] (ranger) StdoutLine: {'line': b'copying ranger/__init__.py -> /home/wyatt/humble_AV_ws/build/ranger/build/lib/ranger\n'}
+[8.646295] (ranger) StdoutLine: {'line': b'copying ranger/distance.py -> /home/wyatt/humble_AV_ws/build/ranger/build/lib/ranger\n'}
+[8.646525] (ranger) StdoutLine: {'line': b'running install\n'}
+[8.646787] (ranger) StdoutLine: {'line': b'running install_lib\n'}
+[8.648103] (ranger) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/ranger/lib/python3.10/site-packages/ranger\n'}
+[8.648529] (ranger) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/ranger/build/lib/ranger/__init__.py -> /home/wyatt/humble_AV_ws/install/ranger/lib/python3.10/site-packages/ranger\n'}
+[8.648744] (ranger) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/ranger/build/lib/ranger/distance.py -> /home/wyatt/humble_AV_ws/install/ranger/lib/python3.10/site-packages/ranger\n'}
+[8.649637] (ranger) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/ranger/lib/python3.10/site-packages/ranger/__init__.py to __init__.cpython-310.pyc\n'}
+[8.650144] (ranger) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/ranger/lib/python3.10/site-packages/ranger/distance.py to distance.cpython-310.pyc\n'}
+[8.651323] (ranger) StdoutLine: {'line': b'running install_data\n'}
+[8.652599] (ranger) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/ranger/share/ament_index\n'}
+[8.652997] (ranger) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/ranger/share/ament_index/resource_index\n'}
+[8.653232] (ranger) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/ranger/share/ament_index/resource_index/packages\n'}
+[8.653448] (ranger) StdoutLine: {'line': b'copying resource/ranger -> /home/wyatt/humble_AV_ws/install/ranger/share/ament_index/resource_index/packages\n'}
+[8.653761] (ranger) StdoutLine: {'line': b'copying package.xml -> /home/wyatt/humble_AV_ws/install/ranger/share/ranger\n'}
+[8.654020] (ranger) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/ranger/share/ranger/launch\n'}
+[8.654219] (ranger) StdoutLine: {'line': b'copying launch/ranger_launch.yaml -> /home/wyatt/humble_AV_ws/install/ranger/share/ranger/launch\n'}
+[8.654689] (ranger) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.655715] (-) TimerEvent: {}
+[8.659445] (ranger) StdoutLine: {'line': b'Copying ../../build/ranger/ranger.egg-info to /home/wyatt/humble_AV_ws/install/ranger/lib/python3.10/site-packages/ranger-0.0.0-py3.10.egg-info\n'}
+[8.662139] (ranger) StdoutLine: {'line': b'running install_scripts\n'}
+[8.710429] (ranger) StdoutLine: {'line': b'Installing distance script to /home/wyatt/humble_AV_ws/install/ranger/lib/ranger\n'}
+[8.712144] (ranger) StdoutLine: {'line': b"writing list of installed files to '/home/wyatt/humble_AV_ws/build/ranger/install.log'\n"}
+[8.755859] (-) TimerEvent: {}
+[8.767710] (vehicle_pose_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[8.769122] (vehicle_pose_pkg) StdoutLine: {'line': b'creating ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info\n'}
+[8.769528] (vehicle_pose_pkg) StdoutLine: {'line': b'writing ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/PKG-INFO\n'}
+[8.769963] (vehicle_pose_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/dependency_links.txt\n'}
+[8.770289] (vehicle_pose_pkg) StdoutLine: {'line': b'writing entry points to ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/entry_points.txt\n'}
+[8.770541] (vehicle_pose_pkg) StdoutLine: {'line': b'writing requirements to ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/requires.txt\n'}
+[8.770790] (vehicle_pose_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/top_level.txt\n'}
+[8.771208] (vehicle_pose_pkg) StdoutLine: {'line': b"writing manifest file '../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/SOURCES.txt'\n"}
+[8.774805] (vehicle_pose_pkg) StdoutLine: {'line': b"reading manifest file '../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/SOURCES.txt'\n"}
+[8.777378] (vehicle_pose_pkg) StdoutLine: {'line': b"writing manifest file '../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info/SOURCES.txt'\n"}
+[8.777834] (my_best3) StdoutLine: {'line': b'running egg_info\n'}
+[8.778182] (vehicle_pose_pkg) StdoutLine: {'line': b'running build\n'}
+[8.778388] (vehicle_pose_pkg) StdoutLine: {'line': b'running build_py\n'}
+[8.778771] (vehicle_pose_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build\n'}
+[8.779047] (vehicle_pose_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib\n'}
+[8.779323] (vehicle_pose_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib/vehicle_pose_pkg\n'}
+[8.779594] (my_best3) StdoutLine: {'line': b'creating ../../build/my_best3/my_best3.egg-info\n'}
+[8.779848] (my_best3) StdoutLine: {'line': b'writing ../../build/my_best3/my_best3.egg-info/PKG-INFO\n'}
+[8.780111] (my_best3) StdoutLine: {'line': b'writing dependency_links to ../../build/my_best3/my_best3.egg-info/dependency_links.txt\n'}
+[8.780425] (my_best3) StdoutLine: {'line': b'writing entry points to ../../build/my_best3/my_best3.egg-info/entry_points.txt\n'}
+[8.780741] (my_best3) StdoutLine: {'line': b'writing requirements to ../../build/my_best3/my_best3.egg-info/requires.txt\n'}
+[8.780927] (my_best3) StdoutLine: {'line': b'writing top-level names to ../../build/my_best3/my_best3.egg-info/top_level.txt\n'}
+[8.781280] (vehicle_pose_pkg) StdoutLine: {'line': b'copying vehicle_pose_pkg/sub_save.py -> /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib/vehicle_pose_pkg\n'}
+[8.781483] (vehicle_pose_pkg) StdoutLine: {'line': b'copying vehicle_pose_pkg/__init__.py -> /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib/vehicle_pose_pkg\n'}
+[8.781675] (vehicle_pose_pkg) StdoutLine: {'line': b'running install\n'}
+[8.784037] (vehicle_pose_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[8.784472] (my_best3) StdoutLine: {'line': b"writing manifest file '../../build/my_best3/my_best3.egg-info/SOURCES.txt'\n"}
+[8.784756] (vehicle_pose_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg\n'}
+[8.784948] (vehicle_pose_pkg) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib/vehicle_pose_pkg/sub_save.py -> /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg\n'}
+[8.785140] (vehicle_pose_pkg) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/build/lib/vehicle_pose_pkg/__init__.py -> /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg\n'}
+[8.785329] (vehicle_pose_pkg) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg/sub_save.py to sub_save.cpython-310.pyc\n'}
+[8.786580] (vehicle_pose_pkg) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[8.787037] (vehicle_pose_pkg) StdoutLine: {'line': b'running install_data\n'}
+[8.788334] (my_best3) StdoutLine: {'line': b"reading manifest file '../../build/my_best3/my_best3.egg-info/SOURCES.txt'\n"}
+[8.788861] (vehicle_pose_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/ament_index\n'}
+[8.789128] (vehicle_pose_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/ament_index/resource_index\n'}
+[8.789394] (vehicle_pose_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/ament_index/resource_index/packages\n'}
+[8.789718] (vehicle_pose_pkg) StdoutLine: {'line': b'copying resource/vehicle_pose_pkg -> /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/ament_index/resource_index/packages\n'}
+[8.789904] (vehicle_pose_pkg) StdoutLine: {'line': b'copying package.xml -> /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/vehicle_pose_pkg\n'}
+[8.790110] (vehicle_pose_pkg) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/vehicle_pose_pkg/launch\n'}
+[8.790299] (vehicle_pose_pkg) StdoutLine: {'line': b'copying launch/vehicle_pose_pkg_launch.yaml -> /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/share/vehicle_pose_pkg/launch\n'}
+[8.790500] (vehicle_pose_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.790994] (my_best3) StdoutLine: {'line': b"writing manifest file '../../build/my_best3/my_best3.egg-info/SOURCES.txt'\n"}
+[8.791885] (my_best3) StdoutLine: {'line': b'running build\n'}
+[8.792198] (my_best3) StdoutLine: {'line': b'running build_py\n'}
+[8.792956] (my_best3) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/my_best3/build\n'}
+[8.793803] (my_best3) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/my_best3/build/lib\n'}
+[8.794031] (my_best3) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3\n'}
+[8.794226] (my_best3) StdoutLine: {'line': b'copying my_best3/my_pub.py -> /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3\n'}
+[8.794631] (my_best3) StdoutLine: {'line': b'copying my_best3/__init__.py -> /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3\n'}
+[8.794826] (my_best3) StdoutLine: {'line': b'copying my_best3/pub_pt.py -> /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3\n'}
+[8.795016] (my_best3) StdoutLine: {'line': b'copying my_best3/my_sub.py -> /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3\n'}
+[8.795206] (my_best3) StdoutLine: {'line': b'copying my_best3/sub_pt_pub_polar.py -> /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3\n'}
+[8.795400] (my_best3) StdoutLine: {'line': b'running install\n'}
+[8.795588] (my_best3) StdoutLine: {'line': b'running install_lib\n'}
+[8.795779] (vehicle_pose_pkg) StdoutLine: {'line': b'Copying ../../build/vehicle_pose_pkg/vehicle_pose_pkg.egg-info to /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/python3.10/site-packages/vehicle_pose_pkg-6.0.0-py3.10.egg-info\n'}
+[8.796370] (my_best3) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3\n'}
+[8.798658] (my_best3) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3/my_pub.py -> /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3\n'}
+[8.798910] (my_best3) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3/__init__.py -> /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3\n'}
+[8.799112] (my_best3) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3/pub_pt.py -> /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3\n'}
+[8.799304] (my_best3) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3/my_sub.py -> /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3\n'}
+[8.799503] (my_best3) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3/sub_pt_pub_polar.py -> /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3\n'}
+[8.801262] (vehicle_pose_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[8.801499] (my_best3) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3/my_pub.py to my_pub.cpython-310.pyc\n'}
+[8.801700] (my_best3) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3/__init__.py to __init__.cpython-310.pyc\n'}
+[8.803137] (my_best3) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3/pub_pt.py to pub_pt.cpython-310.pyc\n'}
+[8.803345] (my_best3) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3/my_sub.py to my_sub.cpython-310.pyc\n'}
+[8.803525] (my_best3) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3/sub_pt_pub_polar.py to sub_pt_pub_polar.cpython-310.pyc\n'}
+[8.803713] (my_best3) StdoutLine: {'line': b'running install_data\n'}
+[8.804418] (my_best3) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/my_best3/share/ament_index\n'}
+[8.805418] (my_best3) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/my_best3/share/ament_index/resource_index\n'}
+[8.822279] (my_best3) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/my_best3/share/ament_index/resource_index/packages\n'}
+[8.822473] (my_best3) StdoutLine: {'line': b'copying resource/my_best3 -> /home/wyatt/humble_AV_ws/install/my_best3/share/ament_index/resource_index/packages\n'}
+[8.822684] (my_best3) StdoutLine: {'line': b'copying package.xml -> /home/wyatt/humble_AV_ws/install/my_best3/share/my_best3\n'}
+[8.822867] (my_best3) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.823044] (ranger) CommandEnded: {'returncode': 0}
+[8.823659] (my_best3) StdoutLine: {'line': b'Copying ../../build/my_best3/my_best3.egg-info to /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3-0.0.0-py3.10.egg-info\n'}
+[8.823852] (my_best3) StdoutLine: {'line': b'running install_scripts\n'}
+[8.849624] (vehicle_pose_pkg) StdoutLine: {'line': b'Installing sub_save script to /home/wyatt/humble_AV_ws/install/vehicle_pose_pkg/lib/vehicle_pose_pkg\n'}
+[8.850231] (vehicle_pose_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/wyatt/humble_AV_ws/build/vehicle_pose_pkg/install.log'\n"}
+[8.856013] (-) TimerEvent: {}
+[8.859204] (my_best3) StdoutLine: {'line': b'Installing lets_go script to /home/wyatt/humble_AV_ws/install/my_best3/lib/my_best3\n'}
+[8.859560] (my_best3) StdoutLine: {'line': b'Installing listener script to /home/wyatt/humble_AV_ws/install/my_best3/lib/my_best3\n'}
+[8.860221] (my_best3) StdoutLine: {'line': b'Installing pub_me script to /home/wyatt/humble_AV_ws/install/my_best3/lib/my_best3\n'}
+[8.860572] (my_best3) StdoutLine: {'line': b'Installing talker script to /home/wyatt/humble_AV_ws/install/my_best3/lib/my_best3\n'}
+[8.861444] (my_best3) StdoutLine: {'line': b"writing list of installed files to '/home/wyatt/humble_AV_ws/build/my_best3/install.log'\n"}
+[8.953903] (ranger) JobEnded: {'identifier': 'ranger', 'rc': 0}
+[8.955829] (wallfollowpid) JobStarted: {'identifier': 'wallfollowpid'}
+[8.956364] (-) TimerEvent: {}
+[9.057423] (-) TimerEvent: {}
+[9.076688] (my_best3) CommandEnded: {'returncode': 0}
+[9.157566] (-) TimerEvent: {}
+[9.197072] (my_best3) JobEnded: {'identifier': 'my_best3', 'rc': 0}
+[9.199262] (vehicle_pose_pkg) CommandEnded: {'returncode': 0}
+[9.257692] (-) TimerEvent: {}
+[9.301336] (vehicle_pose_pkg) JobEnded: {'identifier': 'vehicle_pose_pkg', 'rc': 0}
+[9.314428] (my_best3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.357807] (-) TimerEvent: {}
+[9.458179] (-) TimerEvent: {}
+[9.558677] (-) TimerEvent: {}
+[9.660044] (-) TimerEvent: {}
+[9.666394] (my_best3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.704263] (my_best3_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[9.706767] (my_best3_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[9.749890] (my_best3_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[9.750321] (my_best3_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.750563] (my_best3_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.750759] (my_best3_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[9.760189] (-) TimerEvent: {}
+[9.781786] (my_best3_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.860337] (-) TimerEvent: {}
+[9.913720] (my_best3_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.960497] (-) TimerEvent: {}
+[9.960885] (my_best3_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.964570] (my_best3_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.971819] (my_best3_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.052360] (my_best3_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[10.057552] (my_best3_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/wyatt/humble_AV_ws/build/my_best3_interfaces\n'}
+[10.060616] (-) TimerEvent: {}
+[10.073351] (my_best3_interfaces) CommandEnded: {'returncode': 0}
+[10.074253] (my_best3_interfaces) JobProgress: {'identifier': 'my_best3_interfaces', 'progress': 'build'}
+[10.075239] (my_best3_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wyatt/humble_AV_ws/build/my_best3_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/wyatt/humble_AV_ws/build/my_best3_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wyatt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wyatt'), ('OLDPWD', '/home/wyatt'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wyatt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wyatt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/r2d2:@/tmp/.ICE-unix/1034,unix/r2d2:/tmp/.ICE-unix/1034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f1718d4c_f0e4_4e63_9cf6_3a8fd540c4c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZSTID2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wyatt/humble_AV_ws/build/my_best3_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.139331] (my_best3_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.160729] (-) TimerEvent: {}
+[10.161776] (my_best3_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.177561] (my_best3_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_my_best3_interfaces\n'}
+[10.260849] (-) TimerEvent: {}
+[10.361324] (-) TimerEvent: {}
+[10.461727] (-) TimerEvent: {}
+[10.562127] (-) TimerEvent: {}
+[10.674170] (-) TimerEvent: {}
+[10.774583] (-) TimerEvent: {}
+[10.875158] (-) TimerEvent: {}
+[10.906341] (wallfollowpid) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/wallfollowpid', 'build', '--build-base', '/home/wyatt/humble_AV_ws/build/wallfollowpid/build', 'install', '--record', '/home/wyatt/humble_AV_ws/build/wallfollowpid/install.log', '--single-version-externally-managed'], 'cwd': '/home/wyatt/humble_AV_ws/src/wallfollowpid', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wyatt', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wyatt', 'OLDPWD': '/home/wyatt', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wyatt', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wyatt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/r2d2:@/tmp/.ICE-unix/1034,unix/r2d2:/tmp/.ICE-unix/1034', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f1718d4c_f0e4_4e63_9cf6_3a8fd540c4c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZSTID2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wyatt/humble_AV_ws/build/wallfollowpid', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wyatt/humble_AV_ws/build/wallfollowpid/prefix_override:/home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.930710] (my_best3_interfaces) StdoutLine: {'line': b'[  6%] Built target my_best3_interfaces__cpp\n'}
+[10.956445] (my_best3_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.956844] (my_best3_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[10.958284] (my_best3_interfaces) StdoutLine: {'line': b'creating my_best3_interfaces.egg-info\n'}
+[10.958872] (my_best3_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_best3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_best3_interfaces/msg/detail/polar__functions.c.o\x1b[0m\n'}
+[10.959151] (my_best3_interfaces) StdoutLine: {'line': b'writing my_best3_interfaces.egg-info/PKG-INFO\n'}
+[10.959429] (my_best3_interfaces) StdoutLine: {'line': b'writing dependency_links to my_best3_interfaces.egg-info/dependency_links.txt\n'}
+[10.959610] (my_best3_interfaces) StdoutLine: {'line': b'writing top-level names to my_best3_interfaces.egg-info/top_level.txt\n'}
+[10.960023] (my_best3_interfaces) StdoutLine: {'line': b"writing manifest file 'my_best3_interfaces.egg-info/SOURCES.txt'\n"}
+[10.965200] (my_best3_interfaces) StdoutLine: {'line': b"reading manifest file 'my_best3_interfaces.egg-info/SOURCES.txt'\n"}
+[10.966569] (my_best3_interfaces) StdoutLine: {'line': b"writing manifest file 'my_best3_interfaces.egg-info/SOURCES.txt'\n"}
+[10.973577] (my_best3_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.975290] (-) TimerEvent: {}
+[11.033842] (my_best3_interfaces) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_my_best3_interfaces_egg\n'}
+[11.062534] (my_best3_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.075416] (-) TimerEvent: {}
+[11.175995] (-) TimerEvent: {}
+[11.214785] (my_best3_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmy_best3_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[11.276115] (-) TimerEvent: {}
+[11.376639] (-) TimerEvent: {}
+[11.446272] (my_best3_interfaces) StdoutLine: {'line': b'[ 22%] Built target my_best3_interfaces__rosidl_generator_c\n'}
+[11.476754] (-) TimerEvent: {}
+[11.509277] (my_best3_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.576869] (-) TimerEvent: {}
+[11.627834] (wallfollowpid) StdoutLine: {'line': b'running egg_info\n'}
+[11.628974] (wallfollowpid) StdoutLine: {'line': b'creating ../../build/wallfollowpid/wallfollowpid.egg-info\n'}
+[11.629408] (wallfollowpid) StdoutLine: {'line': b'writing ../../build/wallfollowpid/wallfollowpid.egg-info/PKG-INFO\n'}
+[11.629830] (wallfollowpid) StdoutLine: {'line': b'writing dependency_links to ../../build/wallfollowpid/wallfollowpid.egg-info/dependency_links.txt\n'}
+[11.630154] (wallfollowpid) StdoutLine: {'line': b'writing entry points to ../../build/wallfollowpid/wallfollowpid.egg-info/entry_points.txt\n'}
+[11.630465] (wallfollowpid) StdoutLine: {'line': b'writing requirements to ../../build/wallfollowpid/wallfollowpid.egg-info/requires.txt\n'}
+[11.630664] (wallfollowpid) StdoutLine: {'line': b'writing top-level names to ../../build/wallfollowpid/wallfollowpid.egg-info/top_level.txt\n'}
+[11.630998] (wallfollowpid) StdoutLine: {'line': b"writing manifest file '../../build/wallfollowpid/wallfollowpid.egg-info/SOURCES.txt'\n"}
+[11.635003] (wallfollowpid) StdoutLine: {'line': b"reading manifest file '../../build/wallfollowpid/wallfollowpid.egg-info/SOURCES.txt'\n"}
+[11.637783] (wallfollowpid) StdoutLine: {'line': b"writing manifest file '../../build/wallfollowpid/wallfollowpid.egg-info/SOURCES.txt'\n"}
+[11.638217] (wallfollowpid) StdoutLine: {'line': b'running build\n'}
+[11.638417] (wallfollowpid) StdoutLine: {'line': b'running build_py\n'}
+[11.638759] (wallfollowpid) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/wallfollowpid/build\n'}
+[11.638981] (wallfollowpid) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib\n'}
+[11.639205] (wallfollowpid) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid\n'}
+[11.639509] (wallfollowpid) StdoutLine: {'line': b'copying wallfollowpid/__init__.py -> /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid\n'}
+[11.639726] (wallfollowpid) StdoutLine: {'line': b'copying wallfollowpid/followOld.py -> /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid\n'}
+[11.639923] (wallfollowpid) StdoutLine: {'line': b'copying wallfollowpid/followFridayCopy.py -> /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid\n'}
+[11.640186] (wallfollowpid) StdoutLine: {'line': b'copying wallfollowpid/follow.py -> /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid\n'}
+[11.640383] (wallfollowpid) StdoutLine: {'line': b'running install\n'}
+[11.640844] (wallfollowpid) StdoutLine: {'line': b'running install_lib\n'}
+[11.642441] (wallfollowpid) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid\n'}
+[11.642827] (wallfollowpid) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid/__init__.py -> /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid\n'}
+[11.643050] (wallfollowpid) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid/followOld.py -> /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid\n'}
+[11.643349] (wallfollowpid) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid/followFridayCopy.py -> /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid\n'}
+[11.643544] (wallfollowpid) StdoutLine: {'line': b'copying /home/wyatt/humble_AV_ws/build/wallfollowpid/build/lib/wallfollowpid/follow.py -> /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid\n'}
+[11.644451] (wallfollowpid) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid/__init__.py to __init__.cpython-310.pyc\n'}
+[11.644898] (wallfollowpid) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid/followOld.py to followOld.cpython-310.pyc\n'}
+[11.646839] (wallfollowpid) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid/followFridayCopy.py to followFridayCopy.cpython-310.pyc\n'}
+[11.648934] (wallfollowpid) StdoutLine: {'line': b'byte-compiling /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid/follow.py to follow.cpython-310.pyc\n'}
+[11.655309] (wallfollowpid) StdoutLine: {'line': b'running install_data\n'}
+[11.656540] (wallfollowpid) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/wallfollowpid/share/ament_index\n'}
+[11.656934] (wallfollowpid) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/wallfollowpid/share/ament_index/resource_index\n'}
+[11.657162] (wallfollowpid) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/wallfollowpid/share/ament_index/resource_index/packages\n'}
+[11.657367] (wallfollowpid) StdoutLine: {'line': b'copying resource/wallfollowpid -> /home/wyatt/humble_AV_ws/install/wallfollowpid/share/ament_index/resource_index/packages\n'}
+[11.657692] (wallfollowpid) StdoutLine: {'line': b'copying package.xml -> /home/wyatt/humble_AV_ws/install/wallfollowpid/share/wallfollowpid\n'}
+[11.657883] (wallfollowpid) StdoutLine: {'line': b'creating /home/wyatt/humble_AV_ws/install/wallfollowpid/share/wallfollowpid/launch\n'}
+[11.658096] (wallfollowpid) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.661241] (wallfollowpid) StdoutLine: {'line': b'Copying ../../build/wallfollowpid/wallfollowpid.egg-info to /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/python3.10/site-packages/wallfollowpid-5.0.0-py3.10.egg-info\n'}
+[11.663183] (wallfollowpid) StdoutLine: {'line': b'running install_scripts\n'}
+[11.676990] (-) TimerEvent: {}
+[11.710247] (wallfollowpid) StdoutLine: {'line': b'Installing follow script to /home/wyatt/humble_AV_ws/install/wallfollowpid/lib/wallfollowpid\n'}
+[11.711497] (wallfollowpid) StdoutLine: {'line': b"writing list of installed files to '/home/wyatt/humble_AV_ws/build/wallfollowpid/install.log'\n"}
+[11.777126] (-) TimerEvent: {}
+[11.797828] (wallfollowpid) CommandEnded: {'returncode': 0}
+[11.817514] (my_best3_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/my_best3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_best3_interfaces/msg/polar__type_support.cpp.o\x1b[0m\n'}
+[11.843369] (my_best3_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/my_best3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_best3_interfaces/msg/detail/polar__type_support.cpp.o\x1b[0m\n'}
+[11.857898] (my_best3_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_best3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_best3_interfaces/msg/detail/dds_fastrtps/polar__type_support.cpp.o\x1b[0m\n'}
+[11.877514] (-) TimerEvent: {}
+[11.949613] (wallfollowpid) JobEnded: {'identifier': 'wallfollowpid', 'rc': 0}
+[11.977641] (-) TimerEvent: {}
+[12.078038] (-) TimerEvent: {}
+[12.178451] (-) TimerEvent: {}
+[12.278909] (-) TimerEvent: {}
+[12.313924] (my_best3_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_best3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_best3_interfaces/msg/detail/polar__type_support_c.cpp.o\x1b[0m\n'}
+[12.381621] (-) TimerEvent: {}
+[12.482745] (-) TimerEvent: {}
+[12.583580] (-) TimerEvent: {}
+[12.684164] (-) TimerEvent: {}
+[12.747844] (my_best3_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libmy_best3_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.784312] (-) TimerEvent: {}
+[12.852415] (my_best3_interfaces) StdoutLine: {'line': b'[ 41%] Built target my_best3_interfaces__rosidl_typesupport_cpp\n'}
+[12.877830] (my_best3_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.884445] (-) TimerEvent: {}
+[12.985013] (-) TimerEvent: {}
+[13.034566] (my_best3_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmy_best3_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.035045] (my_best3_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmy_best3_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.085167] (-) TimerEvent: {}
+[13.185640] (-) TimerEvent: {}
+[13.203645] (my_best3_interfaces) StdoutLine: {'line': b'[ 51%] Built target my_best3_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[13.228202] (my_best3_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.233281] (my_best3_interfaces) StdoutLine: {'line': b'[ 54%] Built target my_best3_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[13.264168] (my_best3_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_best3_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.285759] (-) TimerEvent: {}
+[13.386190] (-) TimerEvent: {}
+[13.392907] (my_best3_interfaces) StdoutLine: {'line': b'[ 58%] Built target my_best3_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[13.486307] (-) TimerEvent: {}
+[13.512694] (my_best3_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/my_best3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_best3_interfaces/msg/detail/polar__type_support.c.o\x1b[0m\n'}
+[13.561739] (my_best3_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libmy_best3_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.586423] (-) TimerEvent: {}
+[13.607479] (my_best3_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_best3_interfaces__rosidl_typesupport_introspection_c\n'}
+[13.663493] (my_best3_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/my_best3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_best3_interfaces/msg/polar__type_support.cpp.o\x1b[0m\n'}
+[13.686585] (-) TimerEvent: {}
+[13.706295] (my_best3_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_best3_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.762069] (my_best3_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_best3_interfaces__rosidl_typesupport_c\n'}
+[13.786709] (-) TimerEvent: {}
+[13.787305] (my_best3_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_best3_interfaces\n'}
+[13.813664] (my_best3_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.886824] (-) TimerEvent: {}
+[13.988342] (-) TimerEvent: {}
+[14.088708] (-) TimerEvent: {}
+[14.189097] (-) TimerEvent: {}
+[14.274716] (my_best3_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_best3_interfaces__py\n'}
+[14.289230] (-) TimerEvent: {}
+[14.301283] (my_best3_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_best3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_best3_interfaces/msg/_polar_s.c.o\x1b[0m\n'}
+[14.389395] (-) TimerEvent: {}
+[14.490021] (-) TimerEvent: {}
+[14.492546] (my_best3_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_best3_interfaces/libmy_best3_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[14.557668] (my_best3_interfaces) StdoutLine: {'line': b'[ 80%] Built target my_best3_interfaces__rosidl_generator_py\n'}
+[14.585661] (my_best3_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/my_best3_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_best3_interfaces/_my_best3_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.590157] (-) TimerEvent: {}
+[14.596074] (my_best3_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_best3_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_best3_interfaces/_my_best3_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.596420] (my_best3_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_best3_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_best3_interfaces/_my_best3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.690292] (-) TimerEvent: {}
+[14.741319] (my_best3_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.790424] (-) TimerEvent: {}
+[14.798045] (my_best3_interfaces) StdoutLine: {'line': b'[ 93%] Built target my_best3_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[14.833759] (my_best3_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.834089] (my_best3_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.890555] (-) TimerEvent: {}
+[14.894903] (my_best3_interfaces) StdoutLine: {'line': b'[100%] Built target my_best3_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.895147] (my_best3_interfaces) StdoutLine: {'line': b'[100%] Built target my_best3_interfaces__rosidl_typesupport_c__pyext\n'}
+[14.909280] (my_best3_interfaces) CommandEnded: {'returncode': 0}
+[14.975926] (my_best3_interfaces) JobProgress: {'identifier': 'my_best3_interfaces', 'progress': 'install'}
+[14.987477] (my_best3_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wyatt/humble_AV_ws/build/my_best3_interfaces'], 'cwd': '/home/wyatt/humble_AV_ws/build/my_best3_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wyatt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wyatt'), ('OLDPWD', '/home/wyatt'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wyatt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wyatt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wyatt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/r2d2:@/tmp/.ICE-unix/1034,unix/r2d2:/tmp/.ICE-unix/1034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f1718d4c_f0e4_4e63_9cf6_3a8fd540c4c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZSTID2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wyatt/humble_AV_ws/build/my_best3_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.990645] (-) TimerEvent: {}
+[14.999705] (my_best3_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.000007] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_best3_interfaces\n'}
+[15.000182] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces\n'}
+[15.000358] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg\n'}
+[15.000563] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail\n'}
+[15.000688] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__functions.c\n'}
+[15.000883] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__type_support.h\n'}
+[15.001064] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__struct.h\n'}
+[15.001243] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__functions.h\n'}
+[15.001488] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/polar.h\n'}
+[15.001704] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.001845] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/environment/library_path.sh\n'}
+[15.002057] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/environment/library_path.dsv\n'}
+[15.002206] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_generator_c.so\n'}
+[15.002671] (my_best3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_generator_c.so" to ""\n'}
+[15.002894] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces\n'}
+[15.003053] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg\n'}
+[15.003203] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.003361] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail\n'}
+[15.003475] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__rosidl_typesupport_fastrtps_c.h\n'}
+[15.003584] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[15.003771] (my_best3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.003994] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces\n'}
+[15.004145] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg\n'}
+[15.004298] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail\n'}
+[15.004448] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__struct.hpp\n'}
+[15.004610] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__builder.hpp\n'}
+[15.004728] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__traits.hpp\n'}
+[15.004933] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/polar.hpp\n'}
+[15.005117] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces\n'}
+[15.005272] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg\n'}
+[15.005425] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.005534] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail\n'}
+[15.005642] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.005767] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/dds_fastrtps\n'}
+[15.006044] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.006214] (my_best3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.006339] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces\n'}
+[15.006457] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg\n'}
+[15.006579] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.006751] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail\n'}
+[15.006936] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__rosidl_typesupport_introspection_c.h\n'}
+[15.007053] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__type_support.c\n'}
+[15.007216] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[15.007381] (my_best3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.007534] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_c.so\n'}
+[15.007933] (my_best3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[15.008114] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces\n'}
+[15.008238] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg\n'}
+[15.008400] (my_best3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail\n'}
+[15.008570] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.008692] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/include/my_best3_interfaces/my_best3_interfaces/msg/detail/polar__type_support.cpp\n'}
+[15.008852] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[15.009200] (my_best3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.009365] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_cpp.so\n'}
+[15.009777] (my_best3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[15.009961] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/environment/pythonpath.sh\n'}
+[15.010135] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/environment/pythonpath.dsv\n'}
+[15.010303] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces-0.0.0-py3.10.egg-info\n'}
+[15.010537] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[15.010700] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[15.010853] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[15.011007] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[15.011212] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces\n'}
+[15.011377] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.011542] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/libmy_best3_interfaces__rosidl_generator_py.so\n'}
+[15.011729] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/_my_best3_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[15.011890] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/__init__.py\n'}
+[15.012052] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.012226] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/_my_best3_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[15.012385] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/msg\n'}
+[15.012537] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/msg/_polar.py\n'}
+[15.012700] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/msg/__init__.py\n'}
+[15.012860] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/msg/_polar_s.c\n'}
+[15.013029] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.013200] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/_my_best3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[15.057687] (my_best3_interfaces) StdoutLine: {'line': b"Listing '/home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces'...\n"}
+[15.058019] (my_best3_interfaces) StdoutLine: {'line': b"Compiling '/home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/__init__.py'...\n"}
+[15.058201] (my_best3_interfaces) StdoutLine: {'line': b"Listing '/home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/msg'...\n"}
+[15.058375] (my_best3_interfaces) StdoutLine: {'line': b"Compiling '/home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/msg/__init__.py'...\n"}
+[15.058543] (my_best3_interfaces) StdoutLine: {'line': b"Compiling '/home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/msg/_polar.py'...\n"}
+[15.064854] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.065431] (my_best3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.065780] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.066396] (my_best3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.066825] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.067385] (my_best3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/local/lib/python3.10/dist-packages/my_best3_interfaces/my_best3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.067688] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_generator_py.so\n'}
+[15.068217] (my_best3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/humble_AV_ws/install/my_best3_interfaces/lib/libmy_best3_interfaces__rosidl_generator_py.so" to ""\n'}
+[15.068535] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/msg/Polar.idl\n'}
+[15.068817] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/msg/Polar.msg\n'}
+[15.069049] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/ament_index/resource_index/package_run_dependencies/my_best3_interfaces\n'}
+[15.069327] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/ament_index/resource_index/parent_prefix_path/my_best3_interfaces\n'}
+[15.069590] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/environment/ament_prefix_path.sh\n'}
+[15.069842] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/environment/ament_prefix_path.dsv\n'}
+[15.070144] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/environment/path.sh\n'}
+[15.070392] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/environment/path.dsv\n'}
+[15.070639] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/local_setup.bash\n'}
+[15.070868] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/local_setup.sh\n'}
+[15.071126] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/local_setup.zsh\n'}
+[15.071366] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/local_setup.dsv\n'}
+[15.071612] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/package.dsv\n'}
+[15.071930] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/ament_index/resource_index/packages/my_best3_interfaces\n'}
+[15.072259] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/export_my_best3_interfaces__rosidl_generator_cExport.cmake\n'}
+[15.072522] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/export_my_best3_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.072802] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/export_my_best3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.073066] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/export_my_best3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.073348] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/export_my_best3_interfaces__rosidl_generator_cppExport.cmake\n'}
+[15.073632] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/export_my_best3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.073890] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/export_my_best3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.074208] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/my_best3_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.074488] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/my_best3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.074767] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/my_best3_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[15.075037] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/my_best3_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.075314] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/my_best3_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.075581] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/my_best3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.075861] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/my_best3_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[15.076119] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/my_best3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.076401] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/export_my_best3_interfaces__rosidl_generator_pyExport.cmake\n'}
+[15.076667] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/export_my_best3_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.076923] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[15.077171] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.077437] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.077691] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.078016] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.078241] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.078483] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.078730] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/my_best3_interfacesConfig.cmake\n'}
+[15.078937] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/cmake/my_best3_interfacesConfig-version.cmake\n'}
+[15.079153] (my_best3_interfaces) StdoutLine: {'line': b'-- Installing: /home/wyatt/humble_AV_ws/install/my_best3_interfaces/share/my_best3_interfaces/package.xml\n'}
+[15.082297] (my_best3_interfaces) CommandEnded: {'returncode': 0}
+[15.090945] (-) TimerEvent: {}
+[15.191380] (-) TimerEvent: {}
+[15.292067] (-) TimerEvent: {}
+[15.393234] (my_best3_interfaces) JobEnded: {'identifier': 'my_best3_interfaces', 'rc': 0}
+[15.395391] (-) TimerEvent: {}
+[15.395563] (-) EventReactorShutdown: {}

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gps_nav_interfaces/msg/CurrentGoalPose.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module gps_nav_interfaces {
+  module msg {
+    struct CurrentGoalPose {
+      geometry_msgs::msg::PoseStamped current_goal_pose;
+
+      geometry_msgs::msg::PoseStamped closest_pose;
+
+      float speed;
+
+      int16 state;
+    };
+  };
+};

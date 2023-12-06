@@ -1,0 +1,3 @@
+/home/wyatt/avHW9/build/gps_nav_interfaces/rosidl_adapter/gps_nav_interfaces:msg/CurrentGoalPose.idl
+/home/wyatt/avHW9/build/gps_nav_interfaces/rosidl_adapter/gps_nav_interfaces:msg/LookAheadSpecs.idl
+/home/wyatt/avHW9/build/gps_nav_interfaces/rosidl_adapter/gps_nav_interfaces:srv/GetRoutePoses.idl

@@ -1,0 +1,6 @@
+[console_scripts]
+lets_go = my_best3.sub_pt_pub_polar:main
+listener = my_best3.my_sub:main
+pub_me = my_best3.pub_pt:main
+talker = my_best3.my_pub:main
+

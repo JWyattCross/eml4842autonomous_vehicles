@@ -1,0 +1,6 @@
+launch:
+
+- node:
+    pkg: "vehicle_pose_pkg"
+    exec: "sub_save"
+    name: "sub_save"

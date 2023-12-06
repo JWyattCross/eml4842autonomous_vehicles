@@ -1,0 +1,3 @@
+[console_scripts]
+joySub = group5joy.joySub:main
+

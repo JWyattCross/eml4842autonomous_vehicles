@@ -1,0 +1,8 @@
+#source and build - dont specif this package, i have had issues that way
+
+ros2 run wallfollowpid follow 
+
+#package is called "wallfollowpid" and the executable name is "follow"
+
+!!!! joy_node needs to be running
+to test without a robot, the topic /joy must be present

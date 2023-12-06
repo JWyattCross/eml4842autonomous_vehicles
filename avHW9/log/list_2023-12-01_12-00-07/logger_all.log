@@ -1,0 +1,80 @@
+[4.595s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/wyatt/avHW9']
+[4.595s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/wyatt/avHW9'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7549097b20>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f7549063df0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f7549063df0>>)
+[4.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.889s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wyatt/avHW9'
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extensions ['ignore', 'ignore_ament_install']
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extension 'ignore'
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extension 'ignore_ament_install'
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extensions ['colcon_pkg']
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extension 'colcon_pkg'
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extensions ['colcon_meta']
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extension 'colcon_meta'
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extensions ['ros']
+[4.891s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extension 'ros'
+[4.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extensions ['cmake', 'python']
+[4.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extension 'cmake'
+[4.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extension 'python'
+[4.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extensions ['python_setup_py']
+[4.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9) by extension 'python_setup_py'
+[4.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/build) by extensions ['ignore', 'ignore_ament_install']
+[4.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/build) by extension 'ignore'
+[4.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/build) ignored
+[4.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/install) by extensions ['ignore', 'ignore_ament_install']
+[4.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/install) by extension 'ignore'
+[4.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/install) ignored
+[4.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/log) by extensions ['ignore', 'ignore_ament_install']
+[4.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/log) by extension 'ignore'
+[4.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/log) ignored
+[4.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extensions ['ignore', 'ignore_ament_install']
+[4.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extension 'ignore'
+[4.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extension 'ignore_ament_install'
+[4.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extensions ['colcon_pkg']
+[4.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extension 'colcon_pkg'
+[4.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extensions ['colcon_meta']
+[4.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extension 'colcon_meta'
+[4.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extensions ['ros']
+[4.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extension 'ros'
+[4.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extensions ['cmake', 'python']
+[4.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extension 'cmake'
+[4.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extension 'python'
+[4.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extensions ['python_setup_py']
+[4.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src) by extension 'python_setup_py'
+[4.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extensions ['ignore', 'ignore_ament_install']
+[4.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extension 'ignore'
+[4.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extension 'ignore_ament_install'
+[4.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extensions ['colcon_pkg']
+[4.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extension 'colcon_pkg'
+[4.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extensions ['colcon_meta']
+[4.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extension 'colcon_meta'
+[4.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extensions ['ros']
+[4.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extension 'ros'
+[4.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extensions ['cmake', 'python']
+[4.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extension 'cmake'
+[4.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extension 'python'
+[4.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extensions ['python_setup_py']
+[4.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav) by extension 'python_setup_py'
+[4.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav) by extensions ['ignore', 'ignore_ament_install']
+[4.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav) by extension 'ignore'
+[4.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav) by extension 'ignore_ament_install'
+[4.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav) by extensions ['colcon_pkg']
+[4.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav) by extension 'colcon_pkg'
+[4.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav) by extensions ['colcon_meta']
+[4.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav) by extension 'colcon_meta'
+[4.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav) by extensions ['ros']
+[4.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav) by extension 'ros'
+[5.015s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav' with type 'ros.ament_python' and name 'gps_nav'
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces) by extension 'ignore'
+[5.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces) by extension 'ignore_ament_install'
+[5.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces) by extensions ['colcon_pkg']
+[5.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces) by extension 'colcon_pkg'
+[5.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces) by extensions ['colcon_meta']
+[5.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces) by extension 'colcon_meta'
+[5.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces) by extensions ['ros']
+[5.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces) by extension 'ros'
+[5.023s] DEBUG:colcon.colcon_core.package_identification:Package '/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav_interfaces' with type 'ros.ament_cmake' and name 'gps_nav_interfaces'
+[5.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

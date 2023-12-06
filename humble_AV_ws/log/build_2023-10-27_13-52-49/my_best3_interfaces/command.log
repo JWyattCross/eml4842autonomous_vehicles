@@ -1,0 +1,6 @@
+Invoking command in '/home/wyatt/humble_AV_ws/build/my_best3_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyatt/humble_AV_ws/src/my_best3_interfaces -DCMAKE_INSTALL_PREFIX=/home/wyatt/humble_AV_ws/install/my_best3_interfaces
+Invoked command in '/home/wyatt/humble_AV_ws/build/my_best3_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyatt/humble_AV_ws/src/my_best3_interfaces -DCMAKE_INSTALL_PREFIX=/home/wyatt/humble_AV_ws/install/my_best3_interfaces
+Invoking command in '/home/wyatt/humble_AV_ws/build/my_best3_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyatt/humble_AV_ws/build/my_best3_interfaces -- -j4 -l4
+Invoked command in '/home/wyatt/humble_AV_ws/build/my_best3_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyatt/humble_AV_ws/build/my_best3_interfaces -- -j4 -l4
+Invoking command in '/home/wyatt/humble_AV_ws/build/my_best3_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyatt/humble_AV_ws/build/my_best3_interfaces
+Invoked command in '/home/wyatt/humble_AV_ws/build/my_best3_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyatt/humble_AV_ws/build/my_best3_interfaces

@@ -1,0 +1,8 @@
+msg/CurrentGoalPose.idl
+msg/CurrentGoalPose.msg
+msg/LookAheadSpecs.idl
+msg/LookAheadSpecs.msg
+srv/GetRoutePoses.idl
+srv/GetRoutePoses.srv
+srv/GetRoutePoses_Request.msg
+srv/GetRoutePoses_Response.msg

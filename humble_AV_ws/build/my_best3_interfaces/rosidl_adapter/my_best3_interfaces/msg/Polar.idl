@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_best3_interfaces/msg/Polar.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module my_best3_interfaces {
+  module msg {
+    struct Polar {
+      double r_meters;
+
+      double theta_rad;
+
+      geometry_msgs::msg::Vector3 point;
+    };
+  };
+};

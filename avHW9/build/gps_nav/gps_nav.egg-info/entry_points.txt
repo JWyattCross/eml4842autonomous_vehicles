@@ -1,0 +1,9 @@
+[console_scripts]
+goal_pose_creator = gps_nav.goal_pose_creator:main
+goal_pose_visualizer = gps_nav.goal_pose_visualizer:main
+motion_spec_provider = gps_nav.motion_spec_provider:main
+route_pose_provider = gps_nav.route_pose_provider:main
+route_pose_visualizer = gps_nav.route_pose_visualizer:main
+vehicle_controller = gps_nav.vehicle_controller:main
+vehicle_simulator = gps_nav.vehicle_simulator:main
+

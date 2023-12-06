@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/hw10/hw10.egg-info/PKG-INFO
+../../build/hw10/hw10.egg-info/SOURCES.txt
+../../build/hw10/hw10.egg-info/dependency_links.txt
+../../build/hw10/hw10.egg-info/entry_points.txt
+../../build/hw10/hw10.egg-info/requires.txt
+../../build/hw10/hw10.egg-info/top_level.txt
+../../build/hw10/hw10.egg-info/zip-safe
+hw10/__init__.py
+hw10/pose_estimator.py
+resource/hw10
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

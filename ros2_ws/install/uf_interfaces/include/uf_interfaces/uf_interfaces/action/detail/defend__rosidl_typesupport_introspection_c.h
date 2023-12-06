@@ -1,0 +1,1 @@
+/home/wyatt/ros2_ws/build/uf_interfaces/rosidl_typesupport_introspection_c/uf_interfaces/action/detail/defend__rosidl_typesupport_introspection_c.h

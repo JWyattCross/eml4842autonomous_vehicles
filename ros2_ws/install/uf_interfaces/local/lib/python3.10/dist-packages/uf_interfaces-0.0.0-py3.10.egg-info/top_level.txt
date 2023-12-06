@@ -1,0 +1,1 @@
+/home/wyatt/ros2_ws/build/uf_interfaces/ament_cmake_python/uf_interfaces/uf_interfaces.egg-info/top_level.txt

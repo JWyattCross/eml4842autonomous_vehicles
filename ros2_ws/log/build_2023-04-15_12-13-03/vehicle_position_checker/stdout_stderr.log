@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating vehicle_position_checker.egg-info
+writing vehicle_position_checker.egg-info/PKG-INFO
+writing dependency_links to vehicle_position_checker.egg-info/dependency_links.txt
+writing entry points to vehicle_position_checker.egg-info/entry_points.txt
+writing requirements to vehicle_position_checker.egg-info/requires.txt
+writing top-level names to vehicle_position_checker.egg-info/top_level.txt
+writing manifest file 'vehicle_position_checker.egg-info/SOURCES.txt'
+reading manifest file 'vehicle_position_checker.egg-info/SOURCES.txt'
+writing manifest file 'vehicle_position_checker.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages/vehicle-position-checker.egg-link (link to .)
+Installing vehicle_positon_checker_node script to /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/vehicle_position_checker
+
+Installed /home/wyatt/ros2_ws/build/vehicle_position_checker
+running install_data
+creating /home/wyatt/ros2_ws/install/vehicle_position_checker/share/ament_index
+creating /home/wyatt/ros2_ws/install/vehicle_position_checker/share/ament_index/resource_index
+creating /home/wyatt/ros2_ws/install/vehicle_position_checker/share/ament_index/resource_index/packages
+copying resource/vehicle_position_checker -> /home/wyatt/ros2_ws/install/vehicle_position_checker/share/ament_index/resource_index/packages
+copying package.xml -> /home/wyatt/ros2_ws/install/vehicle_position_checker/share/vehicle_position_checker

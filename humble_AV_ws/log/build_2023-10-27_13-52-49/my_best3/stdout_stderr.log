@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/my_best3/my_best3.egg-info
+writing ../../build/my_best3/my_best3.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_best3/my_best3.egg-info/dependency_links.txt
+writing entry points to ../../build/my_best3/my_best3.egg-info/entry_points.txt
+writing requirements to ../../build/my_best3/my_best3.egg-info/requires.txt
+writing top-level names to ../../build/my_best3/my_best3.egg-info/top_level.txt
+writing manifest file '../../build/my_best3/my_best3.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_best3/my_best3.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_best3/my_best3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wyatt/humble_AV_ws/build/my_best3/build
+creating /home/wyatt/humble_AV_ws/build/my_best3/build/lib
+creating /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3
+copying my_best3/my_pub.py -> /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3
+copying my_best3/__init__.py -> /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3
+copying my_best3/pub_pt.py -> /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3
+copying my_best3/my_sub.py -> /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3
+copying my_best3/sub_pt_pub_polar.py -> /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3
+running install
+running install_lib
+creating /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3
+copying /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3/my_pub.py -> /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3
+copying /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3/__init__.py -> /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3
+copying /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3/pub_pt.py -> /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3
+copying /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3/my_sub.py -> /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3
+copying /home/wyatt/humble_AV_ws/build/my_best3/build/lib/my_best3/sub_pt_pub_polar.py -> /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3
+byte-compiling /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3/my_pub.py to my_pub.cpython-310.pyc
+byte-compiling /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3/pub_pt.py to pub_pt.cpython-310.pyc
+byte-compiling /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3/my_sub.py to my_sub.cpython-310.pyc
+byte-compiling /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3/sub_pt_pub_polar.py to sub_pt_pub_polar.cpython-310.pyc
+running install_data
+creating /home/wyatt/humble_AV_ws/install/my_best3/share/ament_index
+creating /home/wyatt/humble_AV_ws/install/my_best3/share/ament_index/resource_index
+creating /home/wyatt/humble_AV_ws/install/my_best3/share/ament_index/resource_index/packages
+copying resource/my_best3 -> /home/wyatt/humble_AV_ws/install/my_best3/share/ament_index/resource_index/packages
+copying package.xml -> /home/wyatt/humble_AV_ws/install/my_best3/share/my_best3
+running install_egg_info
+Copying ../../build/my_best3/my_best3.egg-info to /home/wyatt/humble_AV_ws/install/my_best3/lib/python3.10/site-packages/my_best3-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lets_go script to /home/wyatt/humble_AV_ws/install/my_best3/lib/my_best3
+Installing listener script to /home/wyatt/humble_AV_ws/install/my_best3/lib/my_best3
+Installing pub_me script to /home/wyatt/humble_AV_ws/install/my_best3/lib/my_best3
+Installing talker script to /home/wyatt/humble_AV_ws/install/my_best3/lib/my_best3
+writing list of installed files to '/home/wyatt/humble_AV_ws/build/my_best3/install.log'

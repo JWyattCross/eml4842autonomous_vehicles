@@ -1,0 +1,5 @@
+  File "/home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages/estop_button/estop_button.py", line 36
+    if self.arduino ==:
+                      ^
+SyntaxError: invalid syntax
+

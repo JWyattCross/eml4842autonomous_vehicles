@@ -1,0 +1,29 @@
+[2.470s] Invoking command in '/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav': AMENT_PREFIX_PATH=/home/wyatt/avHW9/install/gps_nav_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyatt/avHW9/install/gps_nav_interfaces LD_LIBRARY_PATH=/home/wyatt/avHW9/install/gps_nav_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wyatt/avHW9/build/gps_nav/prefix_override:/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages:/home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gps_nav build --build-base /home/wyatt/avHW9/build/gps_nav/build install --record /home/wyatt/avHW9/build/gps_nav/install.log --install-scripts $base/lib/gps_nav --single-version-externally-managed
+[3.260s] /home/wyatt/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.261s]   warnings.warn(
+[3.350s] running egg_info
+[3.351s] writing ../../../build/gps_nav/gps_nav.egg-info/PKG-INFO
+[3.352s] writing dependency_links to ../../../build/gps_nav/gps_nav.egg-info/dependency_links.txt
+[3.352s] writing entry points to ../../../build/gps_nav/gps_nav.egg-info/entry_points.txt
+[3.353s] writing requirements to ../../../build/gps_nav/gps_nav.egg-info/requires.txt
+[3.353s] writing top-level names to ../../../build/gps_nav/gps_nav.egg-info/top_level.txt
+[3.359s] reading manifest file '../../../build/gps_nav/gps_nav.egg-info/SOURCES.txt'
+[3.363s] writing manifest file '../../../build/gps_nav/gps_nav.egg-info/SOURCES.txt'
+[3.364s] running build
+[3.364s] running build_py
+[3.366s] running install
+[3.367s] running install_lib
+[3.372s] running install_data
+[3.375s] running install_egg_info
+[3.380s] removing '/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav-0.0.1-py3.10.egg-info' (and everything under it)
+[3.381s] Copying ../../../build/gps_nav/gps_nav.egg-info to /home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages/gps_nav-0.0.1-py3.10.egg-info
+[3.385s] running install_scripts
+[3.445s] Installing goal_pose_creator script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.445s] Installing goal_pose_visualizer script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.445s] Installing motion_spec_provider script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.445s] Installing route_pose_provider script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.446s] Installing route_pose_visualizer script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.446s] Installing vehicle_controller script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.446s] Installing vehicle_simulator script to /home/wyatt/avHW9/install/gps_nav/lib/gps_nav
+[3.448s] writing list of installed files to '/home/wyatt/avHW9/build/gps_nav/install.log'
+[3.568s] Invoked command in '/home/wyatt/avHW9/src/eml4842_gps_nav/gps_nav' returned '0': AMENT_PREFIX_PATH=/home/wyatt/avHW9/install/gps_nav_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyatt/avHW9/install/gps_nav_interfaces LD_LIBRARY_PATH=/home/wyatt/avHW9/install/gps_nav_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wyatt/avHW9/build/gps_nav/prefix_override:/home/wyatt/avHW9/install/gps_nav/lib/python3.10/site-packages:/home/wyatt/avHW9/install/gps_nav_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gps_nav build --build-base /home/wyatt/avHW9/build/gps_nav/build install --record /home/wyatt/avHW9/build/gps_nav/install.log --install-scripts $base/lib/gps_nav --single-version-externally-managed

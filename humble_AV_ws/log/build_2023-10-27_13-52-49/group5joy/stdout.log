@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/group5joy/group5joy.egg-info
+writing ../../build/group5joy/group5joy.egg-info/PKG-INFO
+writing dependency_links to ../../build/group5joy/group5joy.egg-info/dependency_links.txt
+writing entry points to ../../build/group5joy/group5joy.egg-info/entry_points.txt
+writing requirements to ../../build/group5joy/group5joy.egg-info/requires.txt
+writing top-level names to ../../build/group5joy/group5joy.egg-info/top_level.txt
+writing manifest file '../../build/group5joy/group5joy.egg-info/SOURCES.txt'
+reading manifest file '../../build/group5joy/group5joy.egg-info/SOURCES.txt'
+writing manifest file '../../build/group5joy/group5joy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wyatt/humble_AV_ws/build/group5joy/build
+creating /home/wyatt/humble_AV_ws/build/group5joy/build/lib
+creating /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy
+copying group5joy/__init__.py -> /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy
+copying group5joy/joySub.py -> /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy
+running install
+running install_lib
+creating /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy
+copying /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy/__init__.py -> /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy
+copying /home/wyatt/humble_AV_ws/build/group5joy/build/lib/group5joy/joySub.py -> /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy
+byte-compiling /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy/joySub.py to joySub.cpython-310.pyc
+running install_data
+creating /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index
+creating /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index/resource_index
+creating /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index/resource_index/packages
+copying resource/group5joy -> /home/wyatt/humble_AV_ws/install/group5joy/share/ament_index/resource_index/packages
+copying package.xml -> /home/wyatt/humble_AV_ws/install/group5joy/share/group5joy
+running install_egg_info
+Copying ../../build/group5joy/group5joy.egg-info to /home/wyatt/humble_AV_ws/install/group5joy/lib/python3.10/site-packages/group5joy-1.0.0-py3.10.egg-info
+running install_scripts
+Installing joySub script to /home/wyatt/humble_AV_ws/install/group5joy/lib/group5joy
+writing list of installed files to '/home/wyatt/humble_AV_ws/build/group5joy/install.log'

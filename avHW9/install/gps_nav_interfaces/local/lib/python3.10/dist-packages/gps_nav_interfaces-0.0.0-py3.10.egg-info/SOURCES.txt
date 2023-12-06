@@ -1,0 +1,11 @@
+setup.py
+gps_nav_interfaces/__init__.py
+gps_nav_interfaces.egg-info/PKG-INFO
+gps_nav_interfaces.egg-info/SOURCES.txt
+gps_nav_interfaces.egg-info/dependency_links.txt
+gps_nav_interfaces.egg-info/top_level.txt
+gps_nav_interfaces/msg/__init__.py
+gps_nav_interfaces/msg/_current_goal_pose.py
+gps_nav_interfaces/msg/_look_ahead_specs.py
+gps_nav_interfaces/srv/__init__.py
+gps_nav_interfaces/srv/_get_route_poses.py

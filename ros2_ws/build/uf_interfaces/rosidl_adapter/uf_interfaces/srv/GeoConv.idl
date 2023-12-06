@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from uf_interfaces/srv/GeoConv.srv
+// generated code does not contain a copyright notice
+
+
+module uf_interfaces {
+  module srv {
+    struct GeoConv_Request {
+      double input_x;
+
+      double input_y;
+    };
+    struct GeoConv_Response {
+      double output_x;
+
+      double output_y;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

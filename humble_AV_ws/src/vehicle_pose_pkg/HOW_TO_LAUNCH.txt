@@ -1,0 +1,4 @@
+HOW TO LAUNCH
+
+build and source
+ros2 launch vehicle_pose_pkg vehicle_pose_pkg_launch.yaml

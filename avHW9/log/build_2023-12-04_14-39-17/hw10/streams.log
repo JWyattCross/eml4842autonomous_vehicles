@@ -1,0 +1,37 @@
+[2.153s] Invoking command in '/home/wyatt/avHW9/src/hw10': PYTHONPATH=/home/wyatt/avHW9/build/hw10/prefix_override:/home/wyatt/avHW9/install/hw10/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hw10 build --build-base /home/wyatt/avHW9/build/hw10/build install --record /home/wyatt/avHW9/build/hw10/install.log --single-version-externally-managed
+[2.906s] running egg_info
+[2.909s] creating ../../build/hw10/hw10.egg-info
+[2.909s] writing ../../build/hw10/hw10.egg-info/PKG-INFO
+[2.909s] writing dependency_links to ../../build/hw10/hw10.egg-info/dependency_links.txt
+[2.910s] writing entry points to ../../build/hw10/hw10.egg-info/entry_points.txt
+[2.910s] writing requirements to ../../build/hw10/hw10.egg-info/requires.txt
+[2.910s] writing top-level names to ../../build/hw10/hw10.egg-info/top_level.txt
+[2.910s] writing manifest file '../../build/hw10/hw10.egg-info/SOURCES.txt'
+[2.916s] reading manifest file '../../build/hw10/hw10.egg-info/SOURCES.txt'
+[2.917s] writing manifest file '../../build/hw10/hw10.egg-info/SOURCES.txt'
+[2.917s] running build
+[2.917s] running build_py
+[2.918s] creating /home/wyatt/avHW9/build/hw10/build
+[2.918s] creating /home/wyatt/avHW9/build/hw10/build/lib
+[2.918s] creating /home/wyatt/avHW9/build/hw10/build/lib/hw10
+[2.919s] copying hw10/__init__.py -> /home/wyatt/avHW9/build/hw10/build/lib/hw10
+[2.923s] copying hw10/pose_estimator.py -> /home/wyatt/avHW9/build/hw10/build/lib/hw10
+[2.924s] running install
+[2.924s] running install_lib
+[2.925s] creating /home/wyatt/avHW9/install/hw10/lib/python3.10/site-packages/hw10
+[2.925s] copying /home/wyatt/avHW9/build/hw10/build/lib/hw10/__init__.py -> /home/wyatt/avHW9/install/hw10/lib/python3.10/site-packages/hw10
+[2.925s] copying /home/wyatt/avHW9/build/hw10/build/lib/hw10/pose_estimator.py -> /home/wyatt/avHW9/install/hw10/lib/python3.10/site-packages/hw10
+[2.925s] byte-compiling /home/wyatt/avHW9/install/hw10/lib/python3.10/site-packages/hw10/__init__.py to __init__.cpython-310.pyc
+[2.925s] byte-compiling /home/wyatt/avHW9/install/hw10/lib/python3.10/site-packages/hw10/pose_estimator.py to pose_estimator.cpython-310.pyc
+[2.926s] running install_data
+[2.926s] creating /home/wyatt/avHW9/install/hw10/share/ament_index
+[2.926s] creating /home/wyatt/avHW9/install/hw10/share/ament_index/resource_index
+[2.926s] creating /home/wyatt/avHW9/install/hw10/share/ament_index/resource_index/packages
+[2.926s] copying resource/hw10 -> /home/wyatt/avHW9/install/hw10/share/ament_index/resource_index/packages
+[2.927s] copying package.xml -> /home/wyatt/avHW9/install/hw10/share/hw10
+[2.927s] running install_egg_info
+[2.933s] Copying ../../build/hw10/hw10.egg-info to /home/wyatt/avHW9/install/hw10/lib/python3.10/site-packages/hw10-0.0.0-py3.10.egg-info
+[2.933s] running install_scripts
+[2.985s] Installing pose_estimator script to /home/wyatt/avHW9/install/hw10/lib/hw10
+[2.988s] writing list of installed files to '/home/wyatt/avHW9/build/hw10/install.log'
+[3.554s] Invoked command in '/home/wyatt/avHW9/src/hw10' returned '0': PYTHONPATH=/home/wyatt/avHW9/build/hw10/prefix_override:/home/wyatt/avHW9/install/hw10/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hw10 build --build-base /home/wyatt/avHW9/build/hw10/build install --record /home/wyatt/avHW9/build/hw10/install.log --single-version-externally-managed

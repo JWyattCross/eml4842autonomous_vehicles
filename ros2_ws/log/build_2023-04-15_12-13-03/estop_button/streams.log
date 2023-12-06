@@ -1,0 +1,23 @@
+[1.570s] Invoking command in '/home/wyatt/ros2_ws/build/estop_button': PYTHONPATH=/home/wyatt/ros2_ws/build/estop_button/prefix_override:/home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/estop_button/build --no-deps install_data
+[2.239s] running develop
+[2.531s] running egg_info
+[2.531s] creating estop_button.egg-info
+[2.531s] writing estop_button.egg-info/PKG-INFO
+[2.532s] writing dependency_links to estop_button.egg-info/dependency_links.txt
+[2.533s] writing entry points to estop_button.egg-info/entry_points.txt
+[2.533s] writing requirements to estop_button.egg-info/requires.txt
+[2.534s] writing top-level names to estop_button.egg-info/top_level.txt
+[2.534s] writing manifest file 'estop_button.egg-info/SOURCES.txt'
+[2.538s] reading manifest file 'estop_button.egg-info/SOURCES.txt'
+[2.539s] writing manifest file 'estop_button.egg-info/SOURCES.txt'
+[2.541s] running build_ext
+[2.542s] Creating /home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages/estop-button.egg-link (link to .)
+[2.543s] 
+[2.543s] Installed /home/wyatt/ros2_ws/build/estop_button
+[2.543s] running install_data
+[2.544s] creating /home/wyatt/ros2_ws/install/estop_button/share/ament_index
+[2.544s] creating /home/wyatt/ros2_ws/install/estop_button/share/ament_index/resource_index
+[2.544s] creating /home/wyatt/ros2_ws/install/estop_button/share/ament_index/resource_index/packages
+[2.544s] copying resource/estop_button -> /home/wyatt/ros2_ws/install/estop_button/share/ament_index/resource_index/packages
+[2.545s] copying package.xml -> /home/wyatt/ros2_ws/install/estop_button/share/estop_button
+[2.610s] Invoked command in '/home/wyatt/ros2_ws/build/estop_button' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/estop_button/prefix_override:/home/wyatt/ros2_ws/install/estop_button/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/estop_button/build --no-deps install_data

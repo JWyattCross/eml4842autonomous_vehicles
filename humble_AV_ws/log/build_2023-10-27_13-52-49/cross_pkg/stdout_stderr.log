@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/cross_pkg/cross_pkg.egg-info
+writing ../../build/cross_pkg/cross_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/cross_pkg/cross_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/cross_pkg/cross_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/cross_pkg/cross_pkg.egg-info/requires.txt
+writing top-level names to ../../build/cross_pkg/cross_pkg.egg-info/top_level.txt
+writing manifest file '../../build/cross_pkg/cross_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/cross_pkg/cross_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/cross_pkg/cross_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wyatt/humble_AV_ws/build/cross_pkg/build
+creating /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib
+creating /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg
+copying cross_pkg/__init__.py -> /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg
+copying cross_pkg/check_val.py -> /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg
+copying cross_pkg/generate_random_num.py -> /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg
+running install
+running install_lib
+creating /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg
+copying /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg/__init__.py -> /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg
+copying /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg/check_val.py -> /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg
+copying /home/wyatt/humble_AV_ws/build/cross_pkg/build/lib/cross_pkg/generate_random_num.py -> /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg
+byte-compiling /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg/check_val.py to check_val.cpython-310.pyc
+byte-compiling /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg/generate_random_num.py to generate_random_num.cpython-310.pyc
+running install_data
+creating /home/wyatt/humble_AV_ws/install/cross_pkg/share/ament_index
+creating /home/wyatt/humble_AV_ws/install/cross_pkg/share/ament_index/resource_index
+creating /home/wyatt/humble_AV_ws/install/cross_pkg/share/ament_index/resource_index/packages
+copying resource/cross_pkg -> /home/wyatt/humble_AV_ws/install/cross_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/wyatt/humble_AV_ws/install/cross_pkg/share/cross_pkg
+running install_egg_info
+Copying ../../build/cross_pkg/cross_pkg.egg-info to /home/wyatt/humble_AV_ws/install/cross_pkg/lib/python3.10/site-packages/cross_pkg-1.0.0-py3.10.egg-info
+running install_scripts
+Installing run_node1 script to /home/wyatt/humble_AV_ws/install/cross_pkg/lib/cross_pkg
+Installing run_node2 script to /home/wyatt/humble_AV_ws/install/cross_pkg/lib/cross_pkg
+writing list of installed files to '/home/wyatt/humble_AV_ws/build/cross_pkg/install.log'

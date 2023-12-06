@@ -1,0 +1,49 @@
+[3.158s] Invoking command in '/home/wyatt/humble_AV_ws/src/my_best2': PYTHONPATH=/home/wyatt/humble_AV_ws/build/my_best2/prefix_override:/home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_best2 build --build-base /home/wyatt/humble_AV_ws/build/my_best2/build install --record /home/wyatt/humble_AV_ws/build/my_best2/install.log --single-version-externally-managed
+[3.835s] running egg_info
+[3.836s] creating ../../build/my_best2/my_best2.egg-info
+[3.837s] writing ../../build/my_best2/my_best2.egg-info/PKG-INFO
+[3.837s] writing dependency_links to ../../build/my_best2/my_best2.egg-info/dependency_links.txt
+[3.838s] writing entry points to ../../build/my_best2/my_best2.egg-info/entry_points.txt
+[3.838s] writing requirements to ../../build/my_best2/my_best2.egg-info/requires.txt
+[3.838s] writing top-level names to ../../build/my_best2/my_best2.egg-info/top_level.txt
+[3.838s] writing manifest file '../../build/my_best2/my_best2.egg-info/SOURCES.txt'
+[3.843s] reading manifest file '../../build/my_best2/my_best2.egg-info/SOURCES.txt'
+[3.845s] writing manifest file '../../build/my_best2/my_best2.egg-info/SOURCES.txt'
+[3.845s] running build
+[3.846s] running build_py
+[3.846s] creating /home/wyatt/humble_AV_ws/build/my_best2/build
+[3.846s] creating /home/wyatt/humble_AV_ws/build/my_best2/build/lib
+[3.847s] creating /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2
+[3.847s] copying my_best2/my_pub.py -> /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2
+[3.847s] copying my_best2/__init__.py -> /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2
+[3.847s] copying my_best2/pub_pt.py -> /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2
+[3.848s] copying my_best2/my_sub.py -> /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2
+[3.848s] copying my_best2/sub_pt_pub_polar.py -> /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2
+[3.848s] running install
+[3.849s] running install_lib
+[3.851s] creating /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2
+[3.852s] copying /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2/my_pub.py -> /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2
+[3.852s] copying /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2/__init__.py -> /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2
+[3.852s] copying /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2/pub_pt.py -> /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2
+[3.852s] copying /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2/my_sub.py -> /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2
+[3.854s] copying /home/wyatt/humble_AV_ws/build/my_best2/build/lib/my_best2/sub_pt_pub_polar.py -> /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2
+[3.854s] byte-compiling /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2/my_pub.py to my_pub.cpython-310.pyc
+[3.855s] byte-compiling /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2/__init__.py to __init__.cpython-310.pyc
+[3.856s] byte-compiling /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2/pub_pt.py to pub_pt.cpython-310.pyc
+[3.856s] byte-compiling /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2/my_sub.py to my_sub.cpython-310.pyc
+[3.866s] byte-compiling /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2/sub_pt_pub_polar.py to sub_pt_pub_polar.cpython-310.pyc
+[3.867s] running install_data
+[3.868s] creating /home/wyatt/humble_AV_ws/install/my_best2/share/ament_index
+[3.868s] creating /home/wyatt/humble_AV_ws/install/my_best2/share/ament_index/resource_index
+[3.868s] creating /home/wyatt/humble_AV_ws/install/my_best2/share/ament_index/resource_index/packages
+[3.868s] copying resource/my_best2 -> /home/wyatt/humble_AV_ws/install/my_best2/share/ament_index/resource_index/packages
+[3.869s] copying package.xml -> /home/wyatt/humble_AV_ws/install/my_best2/share/my_best2
+[3.869s] running install_egg_info
+[3.874s] Copying ../../build/my_best2/my_best2.egg-info to /home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages/my_best2-23.0.0-py3.10.egg-info
+[3.887s] running install_scripts
+[3.924s] Installing listener script to /home/wyatt/humble_AV_ws/install/my_best2/lib/my_best2
+[3.924s] Installing pub_me script to /home/wyatt/humble_AV_ws/install/my_best2/lib/my_best2
+[3.924s] Installing sub_me script to /home/wyatt/humble_AV_ws/install/my_best2/lib/my_best2
+[3.925s] Installing talker script to /home/wyatt/humble_AV_ws/install/my_best2/lib/my_best2
+[3.925s] writing list of installed files to '/home/wyatt/humble_AV_ws/build/my_best2/install.log'
+[4.118s] Invoked command in '/home/wyatt/humble_AV_ws/src/my_best2' returned '0': PYTHONPATH=/home/wyatt/humble_AV_ws/build/my_best2/prefix_override:/home/wyatt/humble_AV_ws/install/my_best2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_best2 build --build-base /home/wyatt/humble_AV_ws/build/my_best2/build install --record /home/wyatt/humble_AV_ws/build/my_best2/install.log --single-version-externally-managed

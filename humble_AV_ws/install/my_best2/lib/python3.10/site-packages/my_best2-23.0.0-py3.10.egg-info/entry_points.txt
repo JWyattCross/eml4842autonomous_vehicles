@@ -1,0 +1,6 @@
+[console_scripts]
+listener = my_best2.my_sub:main
+pub_me = my_best2.pub_pt:main
+sub_me = my_best2.sub_pt_pub_polar:main
+talker = my_best2.my_pub:main
+

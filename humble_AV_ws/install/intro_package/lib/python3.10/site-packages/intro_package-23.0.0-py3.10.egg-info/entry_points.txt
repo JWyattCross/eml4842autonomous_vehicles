@@ -1,0 +1,6 @@
+[console_scripts]
+listener = intro_package.my_sub:main
+pub_me = intro_package.pub_pt:main
+sub_me = sub_pt_pub_polar:main
+talker = intro_package.my_pub:main
+

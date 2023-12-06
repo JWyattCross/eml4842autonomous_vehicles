@@ -1,0 +1,4 @@
+[console_scripts]
+run_node1 = cross_pkg.generate_random_num:main
+run_node2 = cross_pkg.check_val:main
+

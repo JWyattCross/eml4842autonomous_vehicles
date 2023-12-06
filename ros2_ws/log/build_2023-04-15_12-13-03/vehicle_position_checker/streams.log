@@ -1,0 +1,24 @@
+[1.838s] Invoking command in '/home/wyatt/ros2_ws/build/vehicle_position_checker': PYTHONPATH=/home/wyatt/ros2_ws/build/vehicle_position_checker/prefix_override:/home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/vehicle_position_checker/build --no-deps install_data
+[2.358s] running develop
+[2.712s] running egg_info
+[2.712s] creating vehicle_position_checker.egg-info
+[2.713s] writing vehicle_position_checker.egg-info/PKG-INFO
+[2.713s] writing dependency_links to vehicle_position_checker.egg-info/dependency_links.txt
+[2.713s] writing entry points to vehicle_position_checker.egg-info/entry_points.txt
+[2.714s] writing requirements to vehicle_position_checker.egg-info/requires.txt
+[2.714s] writing top-level names to vehicle_position_checker.egg-info/top_level.txt
+[2.714s] writing manifest file 'vehicle_position_checker.egg-info/SOURCES.txt'
+[2.716s] reading manifest file 'vehicle_position_checker.egg-info/SOURCES.txt'
+[2.717s] writing manifest file 'vehicle_position_checker.egg-info/SOURCES.txt'
+[2.719s] running build_ext
+[2.719s] Creating /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages/vehicle-position-checker.egg-link (link to .)
+[2.721s] Installing vehicle_positon_checker_node script to /home/wyatt/ros2_ws/install/vehicle_position_checker/lib/vehicle_position_checker
+[2.721s] 
+[2.722s] Installed /home/wyatt/ros2_ws/build/vehicle_position_checker
+[2.723s] running install_data
+[2.723s] creating /home/wyatt/ros2_ws/install/vehicle_position_checker/share/ament_index
+[2.723s] creating /home/wyatt/ros2_ws/install/vehicle_position_checker/share/ament_index/resource_index
+[2.723s] creating /home/wyatt/ros2_ws/install/vehicle_position_checker/share/ament_index/resource_index/packages
+[2.723s] copying resource/vehicle_position_checker -> /home/wyatt/ros2_ws/install/vehicle_position_checker/share/ament_index/resource_index/packages
+[2.724s] copying package.xml -> /home/wyatt/ros2_ws/install/vehicle_position_checker/share/vehicle_position_checker
+[2.787s] Invoked command in '/home/wyatt/ros2_ws/build/vehicle_position_checker' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/vehicle_position_checker/prefix_override:/home/wyatt/ros2_ws/install/vehicle_position_checker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/vehicle_position_checker/build --no-deps install_data
